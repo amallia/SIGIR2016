@@ -1,0 +1,1358 @@
+doclength is loaded
+number of terms: 21048
+termlex size: 21048
+loading term pair cutoffs of size: 9159 from file: /home/qw376/cutoffs/bigram/million09/50/Pair_Prob_Learned_5543_0.5index_Small
+loading term pair cutoffs of size: 9159 from file: /home/qw376/million09_pairs_cutoffs/ml09_testing_pairlex
+loading toplayer cutoffs of size: 21048 from file: /home/qw376/cutoffs/unigram/million09/50/Uni_Prob_Learned_5543_Small
+loading toplayer cutoffs of size: 21048 from file: /home/qw376/million09_cutoffs/m9_tl_all_lex
+Loading model from file: /home/qw376/InfoForTrainingCutOffs/model/million09_unigram_model_scores_1.4
+Loading model from file: /home/qw376/InfoForTrainingCutOffs/model/million09_bigram_model_scores_1.4
+Block was loaded from file: /home/qw376/InfoForTrainingCutOffs/GreedyAlgoBlockBoundry/posting_block_boundary_1.4
+Block was loaded from file: /home/qw376/InfoForTrainingCutOffs/GreedyAlgoBlockBoundry/posting_block_sizes_1.4
+Block was loaded from file: /home/qw376/InfoForTrainingCutOffs/GreedyAlgoBlockBoundry/listlen_block_boundary_1.4
+Block was loaded from file: /home/qw376/InfoForTrainingCutOffs/GreedyAlgoBlockBoundry/intersection_block_boundary_1.4
+percent_of_index: 50
+Query_Budget_TopLayer: 1000
+Query_Budget_TermPair: 3000
+Num_Doc_for_Lookups: 2000
+lookup_budget: 20000
+num_of_candidate: 2000
+################################################################
+QP configuration
+topk:500	buckets: 0	limit:50220423	layer: 0
+################################################################
+depth for term 0: 5543
+Adding in the entry: 0 11 0.00948706 bucket_idx: 15 cur_col: 0
+Adding in the entry: 0 15 0.00870451 bucket_idx: 15 cur_col: 1
+Adding in the entry: 0 21 0.00869073 bucket_idx: 15 cur_col: 2
+Adding in the entry: 0 29 0.00708064 bucket_idx: 15 cur_col: 3
+Adding in the entry: 0 40 0.00669722 bucket_idx: 15 cur_col: 4
+Adding in the entry: 0 56 0.00663577 bucket_idx: 15 cur_col: 5
+Adding in the entry: 0 78 0.00532281 bucket_idx: 15 cur_col: 6
+Adding in the entry: 0 109 0.0048018 bucket_idx: 15 cur_col: 7
+Adding in the entry: 0 152 0.0033027 bucket_idx: 15 cur_col: 8
+Adding in the entry: 0 212 0.00259552 bucket_idx: 15 cur_col: 9
+Adding in the entry: 0 296 0.00203333 bucket_idx: 15 cur_col: 10
+Adding in the entry: 0 414 0.00149961 bucket_idx: 15 cur_col: 11
+Adding in the entry: 0 579 0.00107754 bucket_idx: 15 cur_col: 12
+Adding in the entry: 0 810 0.000771233 bucket_idx: 15 cur_col: 13
+Adding in the entry: 0 1134 0.000510468 bucket_idx: 15 cur_col: 14
+Adding in the entry: 0 1587 0.000348851 bucket_idx: 15 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 1 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 1 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 1 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 1 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 1 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 1 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 1 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 1 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 1 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 1 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 1 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 1 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 1 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 1 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 1 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 2 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 2 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 2 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 2 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 2 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 2 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 2 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 2 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 2 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 2 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 2 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 2 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 2 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 2 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 2 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for pairs 1: 172
+Adding in the entry: 1 11 0.180911 bucket_idx: 13 cur_col: 0
+Adding in the entry: 1 15 0.106759 bucket_idx: 13 cur_col: 1
+Adding in the entry: 1 21 0.0654438 bucket_idx: 13 cur_col: 2
+Adding in the entry: 1 29 0.0469123 bucket_idx: 13 cur_col: 3
+Adding in the entry: 1 40 0.034069 bucket_idx: 13 cur_col: 4
+Adding in the entry: 1 56 0.0243366 bucket_idx: 13 cur_col: 5
+depth for pairs 2: 5543
+Adding in the entry: 2 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 2 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 2 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 2 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 2 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 2 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 2 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 2 109 0.00693985 bucket_idx: 17 cur_col: 7
+Adding in the entry: 2 152 0.00365688 bucket_idx: 17 cur_col: 8
+Adding in the entry: 2 212 0.00145768 bucket_idx: 17 cur_col: 9
+Adding in the entry: 2 296 0.00113718 bucket_idx: 17 cur_col: 10
+Adding in the entry: 2 414 0.000831598 bucket_idx: 17 cur_col: 11
+Adding in the entry: 2 579 0.000684949 bucket_idx: 17 cur_col: 12
+Adding in the entry: 2 810 0.000499434 bucket_idx: 17 cur_col: 13
+Adding in the entry: 2 1134 0.000362306 bucket_idx: 17 cur_col: 14
+Adding in the entry: 2 1587 0.000258495 bucket_idx: 17 cur_col: 15
+term 0 at length 2822 has partial BM25 score of 17.821
+term 1 at length 76 has partial BM25 score of 12.4185
+term 2 at length 26 has partial BM25 score of 8.00623
+pair 1 at length 172 has partial BM25 score of 23.599 + 3.70414 = 27.3031
+pair 2 at length 1904 has partial BM25 score of 11.0871 + 6.19298 = 17.2801
+009 5543 2822: 0-11-0.00948706; 0-15-0.00870451; 0-21-0.00869073; 0-29-0.00708064; 0-40-0.00669722; 0-56-0.00663577; 0-78-0.00532281; 0-109-0.0048018; 0-152-0.0033027; 0-212-0.00259552; 0-296-0.00203333; 0-414-0.00149961; 0-579-0.00107754; 0-810-0.000771233; 
+sound 5543 76: 1-11-0.00109673; 1-15-0.000955795; 1-21-0.000841043; 1-29-0.000786782; 
+system 5543 26: 2-11-0.00086041; 2-15-0.000689083; 
+009+sound 0 0: 
+009+system 172 172: 4-11-0.180911; 4-15-0.106759; 4-21-0.0654438; 4-29-0.0469123; 4-40-0.034069; 4-56-0.0243366; 4-0-0.00368648; 
+sound+system 5543 1904: 5-11-0.0293761; 5-15-0.0215596; 5-21-0.016201; 5-29-0.012925; 5-40-0.0110907; 5-56-0.00905444; 5-78-0.00772367; 5-109-0.00693985; 5-152-0.00365688; 5-212-0.00145768; 5-296-0.00113718; 5-414-0.000831598; 5-471-0.000684949; 
+num of lookups: 7522 num of actual lookups: 641
+singlebudget: 2924
+pairbudget: 2076
+availablesinglebudget: 16629
+availablepairbudget: 5715
+radixsortsize: 7076
+depth for term 0: 5543
+Adding in the entry: 0 11 0.0325098 bucket_idx: 13 cur_col: 0
+Adding in the entry: 0 15 0.0274145 bucket_idx: 13 cur_col: 1
+Adding in the entry: 0 21 0.0214559 bucket_idx: 13 cur_col: 2
+Adding in the entry: 0 29 0.0200357 bucket_idx: 13 cur_col: 3
+Adding in the entry: 0 40 0.0166331 bucket_idx: 13 cur_col: 4
+Adding in the entry: 0 56 0.0128492 bucket_idx: 13 cur_col: 5
+Adding in the entry: 0 78 0.0107506 bucket_idx: 13 cur_col: 6
+Adding in the entry: 0 109 0.00783527 bucket_idx: 13 cur_col: 7
+Adding in the entry: 0 152 0.00517019 bucket_idx: 13 cur_col: 8
+Adding in the entry: 0 212 0.00281528 bucket_idx: 13 cur_col: 9
+Adding in the entry: 0 296 0.00197028 bucket_idx: 13 cur_col: 10
+Adding in the entry: 0 414 0.0012373 bucket_idx: 13 cur_col: 11
+Adding in the entry: 0 579 0.000762136 bucket_idx: 13 cur_col: 12
+Adding in the entry: 0 810 0.000417006 bucket_idx: 13 cur_col: 13
+Adding in the entry: 0 1134 0.0002484 bucket_idx: 13 cur_col: 14
+Adding in the entry: 0 1587 0.000142543 bucket_idx: 13 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.000177221 bucket_idx: 22 cur_col: 0
+Adding in the entry: 1 15 9.92096e-05 bucket_idx: 22 cur_col: 1
+Adding in the entry: 1 21 8.00959e-05 bucket_idx: 22 cur_col: 2
+Adding in the entry: 1 29 6.49587e-05 bucket_idx: 22 cur_col: 3
+Adding in the entry: 1 40 6.27187e-05 bucket_idx: 22 cur_col: 4
+Adding in the entry: 1 56 5.50439e-05 bucket_idx: 22 cur_col: 5
+Adding in the entry: 1 78 3.72109e-05 bucket_idx: 22 cur_col: 6
+Adding in the entry: 1 109 3.54787e-05 bucket_idx: 22 cur_col: 7
+Adding in the entry: 1 152 3.46446e-05 bucket_idx: 22 cur_col: 8
+Adding in the entry: 1 212 3.43178e-05 bucket_idx: 22 cur_col: 9
+Adding in the entry: 1 296 3.19383e-05 bucket_idx: 22 cur_col: 10
+Adding in the entry: 1 414 3.07853e-05 bucket_idx: 22 cur_col: 11
+Adding in the entry: 1 579 2.89961e-05 bucket_idx: 22 cur_col: 12
+Adding in the entry: 1 810 2.77354e-05 bucket_idx: 22 cur_col: 13
+Adding in the entry: 1 1134 2.72826e-05 bucket_idx: 22 cur_col: 14
+Adding in the entry: 1 1587 2.67942e-05 bucket_idx: 22 cur_col: 15
+term 0 at length 4989 has partial BM25 score of 19.2035
+term 1 at length 11 has partial BM25 score of 2.51
+iota 5543 4989: 0-11-0.0325098; 0-15-0.0274145; 0-21-0.0214559; 0-29-0.0200357; 0-40-0.0166331; 0-56-0.0128492; 0-78-0.0107506; 0-109-0.00783527; 0-152-0.00517019; 0-212-0.00281528; 0-296-0.00197028; 0-414-0.0012373; 0-579-0.000762136; 0-810-0.000417006; 0-1134-0.0002484; 0-1033-0.000142543; 
+1 5543 11: 1-11-0.000177221; 
+1+iota 0 0: 
+num of lookups: 5000 num of actual lookups: 2463
+singlebudget: 5000
+pairbudget: 0
+availablesinglebudget: 11086
+availablepairbudget: 0
+radixsortsize: 5000
+depth for term 0: 5543
+Adding in the entry: 0 11 0.00143647 bucket_idx: 18 cur_col: 0
+Adding in the entry: 0 15 0.00136964 bucket_idx: 18 cur_col: 1
+Adding in the entry: 0 21 0.00112031 bucket_idx: 18 cur_col: 2
+Adding in the entry: 0 29 0.00109418 bucket_idx: 18 cur_col: 3
+Adding in the entry: 0 40 0.00107525 bucket_idx: 18 cur_col: 4
+Adding in the entry: 0 56 0.000861103 bucket_idx: 18 cur_col: 5
+Adding in the entry: 0 78 0.000817632 bucket_idx: 18 cur_col: 6
+Adding in the entry: 0 109 0.00080616 bucket_idx: 18 cur_col: 7
+Adding in the entry: 0 152 0.000805687 bucket_idx: 18 cur_col: 8
+Adding in the entry: 0 212 0.000651508 bucket_idx: 18 cur_col: 9
+Adding in the entry: 0 296 0.000603678 bucket_idx: 18 cur_col: 10
+Adding in the entry: 0 414 0.000530218 bucket_idx: 18 cur_col: 11
+Adding in the entry: 0 579 0.000428108 bucket_idx: 18 cur_col: 12
+Adding in the entry: 0 810 0.000368781 bucket_idx: 18 cur_col: 13
+Adding in the entry: 0 1134 0.0002911 bucket_idx: 18 cur_col: 14
+Adding in the entry: 0 1587 0.000251815 bucket_idx: 18 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 1 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 1 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 1 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 1 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 1 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 1 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 1 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 1 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 1 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 1 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 1 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 1 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 1 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 1 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 1 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00039992 bucket_idx: 21 cur_col: 0
+Adding in the entry: 2 15 0.000359928 bucket_idx: 21 cur_col: 1
+Adding in the entry: 2 21 0.000262448 bucket_idx: 21 cur_col: 2
+Adding in the entry: 2 29 0.000239402 bucket_idx: 21 cur_col: 3
+Adding in the entry: 2 40 0.000230311 bucket_idx: 21 cur_col: 4
+Adding in the entry: 2 56 0.000195356 bucket_idx: 21 cur_col: 5
+Adding in the entry: 2 78 0.000190871 bucket_idx: 21 cur_col: 6
+Adding in the entry: 2 109 0.00018617 bucket_idx: 21 cur_col: 7
+Adding in the entry: 2 152 0.000153815 bucket_idx: 21 cur_col: 8
+Adding in the entry: 2 212 0.000137654 bucket_idx: 21 cur_col: 9
+Adding in the entry: 2 296 0.000123809 bucket_idx: 21 cur_col: 10
+Adding in the entry: 2 414 0.000123089 bucket_idx: 21 cur_col: 11
+Adding in the entry: 2 579 0.000114504 bucket_idx: 21 cur_col: 12
+Adding in the entry: 2 810 0.000106645 bucket_idx: 21 cur_col: 13
+Adding in the entry: 2 1134 8.62261e-05 bucket_idx: 21 cur_col: 14
+Adding in the entry: 2 1587 7.31423e-05 bucket_idx: 21 cur_col: 15
+depth for term 3: 5543
+Adding in the entry: 3 11 0.00039992 bucket_idx: 21 cur_col: 0
+Adding in the entry: 3 15 0.000359928 bucket_idx: 21 cur_col: 1
+Adding in the entry: 3 21 0.000262448 bucket_idx: 21 cur_col: 2
+Adding in the entry: 3 29 0.000239402 bucket_idx: 21 cur_col: 3
+Adding in the entry: 3 40 0.000230311 bucket_idx: 21 cur_col: 4
+Adding in the entry: 3 56 0.000195356 bucket_idx: 21 cur_col: 5
+Adding in the entry: 3 78 0.000190871 bucket_idx: 21 cur_col: 6
+Adding in the entry: 3 109 0.00018617 bucket_idx: 21 cur_col: 7
+Adding in the entry: 3 152 0.000153815 bucket_idx: 21 cur_col: 8
+Adding in the entry: 3 212 0.000137654 bucket_idx: 21 cur_col: 9
+Adding in the entry: 3 296 0.000123809 bucket_idx: 21 cur_col: 10
+Adding in the entry: 3 414 0.000123089 bucket_idx: 21 cur_col: 11
+Adding in the entry: 3 579 0.000114504 bucket_idx: 21 cur_col: 12
+Adding in the entry: 3 810 0.000106645 bucket_idx: 21 cur_col: 13
+Adding in the entry: 3 1134 8.62261e-05 bucket_idx: 21 cur_col: 14
+Adding in the entry: 3 1587 7.31423e-05 bucket_idx: 21 cur_col: 15
+depth for pairs 0: 5543
+Adding in the entry: 0 11 0.0455054 bucket_idx: 16 cur_col: 0
+Adding in the entry: 0 15 0.0328165 bucket_idx: 16 cur_col: 1
+Adding in the entry: 0 21 0.0244716 bucket_idx: 16 cur_col: 2
+Adding in the entry: 0 29 0.0204917 bucket_idx: 16 cur_col: 3
+Adding in the entry: 0 40 0.0154905 bucket_idx: 16 cur_col: 4
+Adding in the entry: 0 56 0.0130146 bucket_idx: 16 cur_col: 5
+Adding in the entry: 0 78 0.0111356 bucket_idx: 16 cur_col: 6
+Adding in the entry: 0 109 0.00895245 bucket_idx: 16 cur_col: 7
+Adding in the entry: 0 152 0.00532936 bucket_idx: 16 cur_col: 8
+Adding in the entry: 0 212 0.0019771 bucket_idx: 16 cur_col: 9
+Adding in the entry: 0 296 0.00136894 bucket_idx: 16 cur_col: 10
+Adding in the entry: 0 414 0.00104853 bucket_idx: 16 cur_col: 11
+Adding in the entry: 0 579 0.000729097 bucket_idx: 16 cur_col: 12
+Adding in the entry: 0 810 0.000556498 bucket_idx: 16 cur_col: 13
+Adding in the entry: 0 1134 0.000383966 bucket_idx: 16 cur_col: 14
+Adding in the entry: 0 1587 0.00024794 bucket_idx: 16 cur_col: 15
+depth for pairs 1: 5543
+Adding in the entry: 1 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 1 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 1 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 1 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 1 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 1 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 1 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 1 109 0.00693985 bucket_idx: 17 cur_col: 7
+Adding in the entry: 1 152 0.00365688 bucket_idx: 17 cur_col: 8
+Adding in the entry: 1 212 0.00145768 bucket_idx: 17 cur_col: 9
+Adding in the entry: 1 296 0.00113718 bucket_idx: 17 cur_col: 10
+Adding in the entry: 1 414 0.000831598 bucket_idx: 17 cur_col: 11
+Adding in the entry: 1 579 0.000684949 bucket_idx: 17 cur_col: 12
+Adding in the entry: 1 810 0.000499434 bucket_idx: 17 cur_col: 13
+Adding in the entry: 1 1134 0.000362306 bucket_idx: 17 cur_col: 14
+Adding in the entry: 1 1587 0.000258495 bucket_idx: 17 cur_col: 15
+depth for pairs 2: 511
+Adding in the entry: 2 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 2 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 2 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 2 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 2 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 2 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 2 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 2 109 0.00693985 bucket_idx: 17 cur_col: 7
+Adding in the entry: 2 152 0.00365688 bucket_idx: 17 cur_col: 8
+depth for pairs 3: 5543
+Adding in the entry: 3 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 3 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 3 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 3 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 3 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 3 56 0.00590236 bucket_idx: 18 cur_col: 5
+Adding in the entry: 3 78 0.00513973 bucket_idx: 18 cur_col: 6
+Adding in the entry: 3 109 0.00389615 bucket_idx: 18 cur_col: 7
+Adding in the entry: 3 152 0.00251364 bucket_idx: 18 cur_col: 8
+Adding in the entry: 3 212 0.000956778 bucket_idx: 18 cur_col: 9
+Adding in the entry: 3 296 0.000659216 bucket_idx: 18 cur_col: 10
+Adding in the entry: 3 414 0.00057468 bucket_idx: 18 cur_col: 11
+Adding in the entry: 3 579 0.000468077 bucket_idx: 18 cur_col: 12
+Adding in the entry: 3 810 0.000363559 bucket_idx: 18 cur_col: 13
+Adding in the entry: 3 1134 0.000291021 bucket_idx: 18 cur_col: 14
+Adding in the entry: 3 1587 0.000204509 bucket_idx: 18 cur_col: 15
+depth for pairs 4: 511
+Adding in the entry: 4 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 4 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 4 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 4 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 4 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 4 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 4 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 4 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 4 152 0.00152998 bucket_idx: 19 cur_col: 8
+depth for pairs 5: 511
+Adding in the entry: 5 11 0.00372707 bucket_idx: 20 cur_col: 0
+Adding in the entry: 5 15 0.00210728 bucket_idx: 20 cur_col: 1
+Adding in the entry: 5 21 0.00209936 bucket_idx: 20 cur_col: 2
+Adding in the entry: 5 29 0.0019705 bucket_idx: 20 cur_col: 3
+Adding in the entry: 5 40 0.00193239 bucket_idx: 20 cur_col: 4
+Adding in the entry: 5 56 0.00176259 bucket_idx: 20 cur_col: 5
+Adding in the entry: 5 78 0.00150298 bucket_idx: 20 cur_col: 6
+Adding in the entry: 5 109 0.00124295 bucket_idx: 20 cur_col: 7
+Adding in the entry: 5 152 0.000716395 bucket_idx: 20 cur_col: 8
+term 0 at length 172 has partial BM25 score of 14.7577
+term 1 at length 11 has partial BM25 score of 9.61058
+pair 0 at length 1433 has partial BM25 score of 14.3904 + 8.15418 = 22.5446
+pair 1 at length 1280 has partial BM25 score of 4.28537 + 14.3536 = 18.639
+pair 2 at length 511 has partial BM25 score of 4.05086 + 13.6629 = 17.7138
+pair 3 at length 723 has partial BM25 score of 5.78305 + 8.28414 = 14.0672
+pair 4 at length 511 has partial BM25 score of 3.1637 + 9.31855 = 12.4822
+pair 5 at length 359 has partial BM25 score of 3.83709 + 6.11806 = 9.95515
+dog 5543 172: 0-11-0.00143647; 0-15-0.00136964; 0-21-0.00112031; 0-29-0.00109418; 0-40-0.00107525; 0-56-0.000861103; 
+food 5543 11: 1-11-0.00086041; 
+best 5543 0: 
+10 5543 0: 
+dog+food 5543 1433: 4-11-0.0455054; 4-15-0.0328165; 4-21-0.0244716; 4-29-0.0204917; 4-40-0.0154905; 4-56-0.0130146; 4-78-0.0111356; 4-109-0.00895245; 4-152-0.00532936; 4-212-0.0019771; 4-296-0.00136894; 4-414-0.00104853; 
+best+dog 5543 1280: 5-11-0.0293761; 5-15-0.0215596; 5-21-0.016201; 5-29-0.012925; 5-40-0.0110907; 5-56-0.00905444; 5-78-0.00772367; 5-109-0.00693985; 5-152-0.00365688; 5-212-0.00145768; 5-296-0.00113718; 5-261-0.000831598; 
+10+dog 511 511: 6-11-0.0293761; 6-15-0.0215596; 6-21-0.016201; 6-29-0.012925; 6-40-0.0110907; 6-56-0.00905444; 6-78-0.00772367; 6-109-0.00693985; 6-152-0.00365688; 
+best+food 5543 723: 7-11-0.0143613; 7-15-0.0115607; 7-21-0.00921273; 7-29-0.00724921; 7-40-0.00652562; 7-56-0.00590236; 7-78-0.00513973; 7-109-0.00389615; 7-152-0.00251364; 7-212-0.000956778; 
+10+food 511 511: 8-11-0.00949764; 8-15-0.00602873; 8-21-0.00518475; 8-29-0.00492101; 8-40-0.0039245; 8-56-0.00354889; 8-78-0.0029027; 8-109-0.00226851; 8-152-0.00152998; 
+10+best 511 359: 9-11-0.00372707; 9-15-0.00210728; 9-21-0.00209936; 9-29-0.0019705; 9-40-0.00193239; 9-56-0.00176259; 9-78-0.00150298; 9-109-0.00124295; 
+num of lookups: 9661 num of actual lookups: 3131
+singlebudget: 183
+pairbudget: 4817
+availablesinglebudget: 22172
+availablepairbudget: 18162
+radixsortsize: 9817
+depth for term 0: 5543
+Adding in the entry: 0 11 0.0605511 bucket_idx: 12 cur_col: 0
+Adding in the entry: 0 15 0.0540532 bucket_idx: 12 cur_col: 1
+Adding in the entry: 0 21 0.0416775 bucket_idx: 12 cur_col: 2
+Adding in the entry: 0 29 0.0307591 bucket_idx: 12 cur_col: 3
+Adding in the entry: 0 40 0.0209505 bucket_idx: 12 cur_col: 4
+Adding in the entry: 0 56 0.015467 bucket_idx: 12 cur_col: 5
+Adding in the entry: 0 78 0.0101156 bucket_idx: 12 cur_col: 6
+Adding in the entry: 0 109 0.00665179 bucket_idx: 12 cur_col: 7
+Adding in the entry: 0 152 0.00424467 bucket_idx: 12 cur_col: 8
+Adding in the entry: 0 212 0.00232211 bucket_idx: 12 cur_col: 9
+Adding in the entry: 0 296 0.00138262 bucket_idx: 12 cur_col: 10
+Adding in the entry: 0 414 0.000757297 bucket_idx: 12 cur_col: 11
+Adding in the entry: 0 579 0.000423159 bucket_idx: 12 cur_col: 12
+Adding in the entry: 0 810 0.000223499 bucket_idx: 12 cur_col: 13
+Adding in the entry: 0 1134 0.000143638 bucket_idx: 12 cur_col: 14
+Adding in the entry: 0 1587 8.03374e-05 bucket_idx: 12 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 1 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 1 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 1 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 1 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 1 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 1 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 1 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 1 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 1 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 1 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 1 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 1 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 1 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 1 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 1 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00039992 bucket_idx: 21 cur_col: 0
+Adding in the entry: 2 15 0.000359928 bucket_idx: 21 cur_col: 1
+Adding in the entry: 2 21 0.000262448 bucket_idx: 21 cur_col: 2
+Adding in the entry: 2 29 0.000239402 bucket_idx: 21 cur_col: 3
+Adding in the entry: 2 40 0.000230311 bucket_idx: 21 cur_col: 4
+Adding in the entry: 2 56 0.000195356 bucket_idx: 21 cur_col: 5
+Adding in the entry: 2 78 0.000190871 bucket_idx: 21 cur_col: 6
+Adding in the entry: 2 109 0.00018617 bucket_idx: 21 cur_col: 7
+Adding in the entry: 2 152 0.000153815 bucket_idx: 21 cur_col: 8
+Adding in the entry: 2 212 0.000137654 bucket_idx: 21 cur_col: 9
+Adding in the entry: 2 296 0.000123809 bucket_idx: 21 cur_col: 10
+Adding in the entry: 2 414 0.000123089 bucket_idx: 21 cur_col: 11
+Adding in the entry: 2 579 0.000114504 bucket_idx: 21 cur_col: 12
+Adding in the entry: 2 810 0.000106645 bucket_idx: 21 cur_col: 13
+Adding in the entry: 2 1134 8.62261e-05 bucket_idx: 21 cur_col: 14
+Adding in the entry: 2 1587 7.31423e-05 bucket_idx: 21 cur_col: 15
+depth for term 3: 5543
+Adding in the entry: 3 11 0.000177221 bucket_idx: 22 cur_col: 0
+Adding in the entry: 3 15 9.92096e-05 bucket_idx: 22 cur_col: 1
+Adding in the entry: 3 21 8.00959e-05 bucket_idx: 22 cur_col: 2
+Adding in the entry: 3 29 6.49587e-05 bucket_idx: 22 cur_col: 3
+Adding in the entry: 3 40 6.27187e-05 bucket_idx: 22 cur_col: 4
+Adding in the entry: 3 56 5.50439e-05 bucket_idx: 22 cur_col: 5
+Adding in the entry: 3 78 3.72109e-05 bucket_idx: 22 cur_col: 6
+Adding in the entry: 3 109 3.54787e-05 bucket_idx: 22 cur_col: 7
+Adding in the entry: 3 152 3.46446e-05 bucket_idx: 22 cur_col: 8
+Adding in the entry: 3 212 3.43178e-05 bucket_idx: 22 cur_col: 9
+Adding in the entry: 3 296 3.19383e-05 bucket_idx: 22 cur_col: 10
+Adding in the entry: 3 414 3.07853e-05 bucket_idx: 22 cur_col: 11
+Adding in the entry: 3 579 2.89961e-05 bucket_idx: 22 cur_col: 12
+Adding in the entry: 3 810 2.77354e-05 bucket_idx: 22 cur_col: 13
+Adding in the entry: 3 1134 2.72826e-05 bucket_idx: 22 cur_col: 14
+Adding in the entry: 3 1587 2.67942e-05 bucket_idx: 22 cur_col: 15
+depth for pairs 0: 511
+Adding in the entry: 0 11 0.405087 bucket_idx: 10 cur_col: 0
+Adding in the entry: 0 15 0.233597 bucket_idx: 10 cur_col: 1
+Adding in the entry: 0 21 0.124324 bucket_idx: 10 cur_col: 2
+Adding in the entry: 0 29 0.0703892 bucket_idx: 10 cur_col: 3
+Adding in the entry: 0 40 0.0419062 bucket_idx: 10 cur_col: 4
+Adding in the entry: 0 56 0.0239328 bucket_idx: 10 cur_col: 5
+Adding in the entry: 0 78 0.0141101 bucket_idx: 10 cur_col: 6
+Adding in the entry: 0 109 0.00748125 bucket_idx: 10 cur_col: 7
+Adding in the entry: 0 152 0.00364318 bucket_idx: 10 cur_col: 8
+depth for pairs 1: 76
+Adding in the entry: 1 11 0.267007 bucket_idx: 12 cur_col: 0
+Adding in the entry: 1 15 0.14519 bucket_idx: 12 cur_col: 1
+Adding in the entry: 1 21 0.086315 bucket_idx: 12 cur_col: 2
+Adding in the entry: 1 29 0.0546615 bucket_idx: 12 cur_col: 3
+depth for pairs 3: 172
+Adding in the entry: 3 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 3 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 3 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 3 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 3 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 3 56 0.00590236 bucket_idx: 18 cur_col: 5
+depth for pairs 4: 5543
+Adding in the entry: 4 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 4 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 4 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 4 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 4 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 4 56 0.00590236 bucket_idx: 18 cur_col: 5
+Adding in the entry: 4 78 0.00513973 bucket_idx: 18 cur_col: 6
+Adding in the entry: 4 109 0.00389615 bucket_idx: 18 cur_col: 7
+Adding in the entry: 4 152 0.00251364 bucket_idx: 18 cur_col: 8
+Adding in the entry: 4 212 0.000956778 bucket_idx: 18 cur_col: 9
+Adding in the entry: 4 296 0.000659216 bucket_idx: 18 cur_col: 10
+Adding in the entry: 4 414 0.00057468 bucket_idx: 18 cur_col: 11
+Adding in the entry: 4 579 0.000468077 bucket_idx: 18 cur_col: 12
+Adding in the entry: 4 810 0.000363559 bucket_idx: 18 cur_col: 13
+Adding in the entry: 4 1134 0.000291021 bucket_idx: 18 cur_col: 14
+Adding in the entry: 4 1587 0.000204509 bucket_idx: 18 cur_col: 15
+depth for pairs 5: 511
+Adding in the entry: 5 11 0.00170411 bucket_idx: 21 cur_col: 0
+Adding in the entry: 5 15 0.00152258 bucket_idx: 21 cur_col: 1
+Adding in the entry: 5 21 0.000967773 bucket_idx: 21 cur_col: 2
+Adding in the entry: 5 29 0.000783865 bucket_idx: 21 cur_col: 3
+Adding in the entry: 5 40 0.000777993 bucket_idx: 21 cur_col: 4
+Adding in the entry: 5 56 0.000720049 bucket_idx: 21 cur_col: 5
+Adding in the entry: 5 78 0.000704221 bucket_idx: 21 cur_col: 6
+Adding in the entry: 5 109 0.000639275 bucket_idx: 21 cur_col: 7
+Adding in the entry: 5 152 0.000418759 bucket_idx: 21 cur_col: 8
+term 0 at length 1433 has partial BM25 score of 16.9641
+term 1 at length 437 has partial BM25 score of 12.232
+pair 0 at length 511 has partial BM25 score of 5.40568 + 14.049 = 19.4547
+pair 1 at length 76 has partial BM25 score of 3.24027 + 19.1271 = 22.3673
+pair 3 at length 172 has partial BM25 score of 3.25478 + 12.0724 = 15.3271
+pair 4 at length 2012 has partial BM25 score of 11.6032 + 1.8011 = 13.4043
+pair 5 at length 359 has partial BM25 score of 4.0417 + 2.71393 = 6.75563
+cleanest 5543 1433: 0-11-0.0605511; 0-15-0.0540532; 0-21-0.0416775; 0-29-0.0307591; 0-40-0.0209505; 0-56-0.015467; 0-78-0.0101156; 0-109-0.00665179; 0-152-0.00424467; 0-212-0.00232211; 0-296-0.00138262; 0-414-0.000757297; 
+cities 5543 437: 1-11-0.00109673; 1-15-0.000955795; 1-21-0.000841043; 1-29-0.000786782; 1-40-0.000629426; 1-56-0.000538571; 1-78-0.000530938; 1-109-0.000524521; 1-78-0.000453205; 
+10 5543 0: 
+us 5543 0: 
+cities+cleanest 511 511: 4-11-0.405087; 4-15-0.233597; 4-21-0.124324; 4-29-0.0703892; 4-40-0.0419062; 4-56-0.0239328; 4-78-0.0141101; 4-109-0.00748125; 4-152-0.00364318; 
+10+cleanest 76 76: 5-11-0.267007; 5-15-0.14519; 5-21-0.086315; 5-29-0.0546615; 5-0-0.00775456; 
+cleanest+us 0 0: 
+10+cities 172 172: 7-11-0.0143613; 7-15-0.0115607; 7-21-0.00921273; 7-29-0.00724921; 7-40-0.00652562; 7-56-0.00590236; 7-0-0.00102795; 
+cities+us 5543 2012: 8-11-0.0143613; 8-15-0.0115607; 8-21-0.00921273; 8-29-0.00724921; 8-40-0.00652562; 8-56-0.00590236; 8-78-0.00513973; 8-109-0.00389615; 8-152-0.00251364; 8-212-0.000956778; 8-296-0.000659216; 8-414-0.00057468; 8-579-0.000468077; 
+10+us 511 359: 9-11-0.00170411; 9-15-0.00152258; 9-21-0.000967773; 9-29-0.000783865; 9-40-0.000777993; 9-56-0.000720049; 9-78-0.000704221; 9-109-0.000639275; 
+num of lookups: 9981 num of actual lookups: 2191
+singlebudget: 1870
+pairbudget: 3130
+availablesinglebudget: 22172
+availablepairbudget: 6813
+radixsortsize: 8130
+depth for term 0: 5543
+Adding in the entry: 0 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 0 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 0 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 0 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 0 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 0 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 0 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 0 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 0 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 0 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 0 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 0 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 0 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 0 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 0 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 0 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 1 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 1 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 1 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 1 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 1 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 1 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 1 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 1 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 1 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 1 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 1 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 1 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 1 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 1 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 1 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00039992 bucket_idx: 21 cur_col: 0
+Adding in the entry: 2 15 0.000359928 bucket_idx: 21 cur_col: 1
+Adding in the entry: 2 21 0.000262448 bucket_idx: 21 cur_col: 2
+Adding in the entry: 2 29 0.000239402 bucket_idx: 21 cur_col: 3
+Adding in the entry: 2 40 0.000230311 bucket_idx: 21 cur_col: 4
+Adding in the entry: 2 56 0.000195356 bucket_idx: 21 cur_col: 5
+Adding in the entry: 2 78 0.000190871 bucket_idx: 21 cur_col: 6
+Adding in the entry: 2 109 0.00018617 bucket_idx: 21 cur_col: 7
+Adding in the entry: 2 152 0.000153815 bucket_idx: 21 cur_col: 8
+Adding in the entry: 2 212 0.000137654 bucket_idx: 21 cur_col: 9
+Adding in the entry: 2 296 0.000123809 bucket_idx: 21 cur_col: 10
+Adding in the entry: 2 414 0.000123089 bucket_idx: 21 cur_col: 11
+Adding in the entry: 2 579 0.000114504 bucket_idx: 21 cur_col: 12
+Adding in the entry: 2 810 0.000106645 bucket_idx: 21 cur_col: 13
+Adding in the entry: 2 1134 8.62261e-05 bucket_idx: 21 cur_col: 14
+Adding in the entry: 2 1587 7.31423e-05 bucket_idx: 21 cur_col: 15
+depth for term 3: 5543
+Adding in the entry: 3 11 0.000177221 bucket_idx: 22 cur_col: 0
+Adding in the entry: 3 15 9.92096e-05 bucket_idx: 22 cur_col: 1
+Adding in the entry: 3 21 8.00959e-05 bucket_idx: 22 cur_col: 2
+Adding in the entry: 3 29 6.49587e-05 bucket_idx: 22 cur_col: 3
+Adding in the entry: 3 40 6.27187e-05 bucket_idx: 22 cur_col: 4
+Adding in the entry: 3 56 5.50439e-05 bucket_idx: 22 cur_col: 5
+Adding in the entry: 3 78 3.72109e-05 bucket_idx: 22 cur_col: 6
+Adding in the entry: 3 109 3.54787e-05 bucket_idx: 22 cur_col: 7
+Adding in the entry: 3 152 3.46446e-05 bucket_idx: 22 cur_col: 8
+Adding in the entry: 3 212 3.43178e-05 bucket_idx: 22 cur_col: 9
+Adding in the entry: 3 296 3.19383e-05 bucket_idx: 22 cur_col: 10
+Adding in the entry: 3 414 3.07853e-05 bucket_idx: 22 cur_col: 11
+Adding in the entry: 3 579 2.89961e-05 bucket_idx: 22 cur_col: 12
+Adding in the entry: 3 810 2.77354e-05 bucket_idx: 22 cur_col: 13
+Adding in the entry: 3 1134 2.72826e-05 bucket_idx: 22 cur_col: 14
+Adding in the entry: 3 1587 2.67942e-05 bucket_idx: 22 cur_col: 15
+depth for pairs 0: 5543
+Adding in the entry: 0 11 0.0455054 bucket_idx: 16 cur_col: 0
+Adding in the entry: 0 15 0.0328165 bucket_idx: 16 cur_col: 1
+Adding in the entry: 0 21 0.0244716 bucket_idx: 16 cur_col: 2
+Adding in the entry: 0 29 0.0204917 bucket_idx: 16 cur_col: 3
+Adding in the entry: 0 40 0.0154905 bucket_idx: 16 cur_col: 4
+Adding in the entry: 0 56 0.0130146 bucket_idx: 16 cur_col: 5
+Adding in the entry: 0 78 0.0111356 bucket_idx: 16 cur_col: 6
+Adding in the entry: 0 109 0.00895245 bucket_idx: 16 cur_col: 7
+Adding in the entry: 0 152 0.00532936 bucket_idx: 16 cur_col: 8
+Adding in the entry: 0 212 0.0019771 bucket_idx: 16 cur_col: 9
+Adding in the entry: 0 296 0.00136894 bucket_idx: 16 cur_col: 10
+Adding in the entry: 0 414 0.00104853 bucket_idx: 16 cur_col: 11
+Adding in the entry: 0 579 0.000729097 bucket_idx: 16 cur_col: 12
+Adding in the entry: 0 810 0.000556498 bucket_idx: 16 cur_col: 13
+Adding in the entry: 0 1134 0.000383966 bucket_idx: 16 cur_col: 14
+Adding in the entry: 0 1587 0.00024794 bucket_idx: 16 cur_col: 15
+depth for pairs 1: 172
+Adding in the entry: 1 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 1 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 1 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 1 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 1 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 1 56 0.00590236 bucket_idx: 18 cur_col: 5
+depth for pairs 2: 5543
+Adding in the entry: 2 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 2 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 2 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 2 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 2 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 2 56 0.00590236 bucket_idx: 18 cur_col: 5
+Adding in the entry: 2 78 0.00513973 bucket_idx: 18 cur_col: 6
+Adding in the entry: 2 109 0.00389615 bucket_idx: 18 cur_col: 7
+Adding in the entry: 2 152 0.00251364 bucket_idx: 18 cur_col: 8
+Adding in the entry: 2 212 0.000956778 bucket_idx: 18 cur_col: 9
+Adding in the entry: 2 296 0.000659216 bucket_idx: 18 cur_col: 10
+Adding in the entry: 2 414 0.00057468 bucket_idx: 18 cur_col: 11
+Adding in the entry: 2 579 0.000468077 bucket_idx: 18 cur_col: 12
+Adding in the entry: 2 810 0.000363559 bucket_idx: 18 cur_col: 13
+Adding in the entry: 2 1134 0.000291021 bucket_idx: 18 cur_col: 14
+Adding in the entry: 2 1587 0.000204509 bucket_idx: 18 cur_col: 15
+depth for pairs 3: 250
+Adding in the entry: 3 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 3 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 3 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 3 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 3 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 3 56 0.00590236 bucket_idx: 18 cur_col: 5
+Adding in the entry: 3 78 0.00513973 bucket_idx: 18 cur_col: 6
+depth for pairs 4: 5543
+Adding in the entry: 4 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 4 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 4 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 4 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 4 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 4 56 0.00590236 bucket_idx: 18 cur_col: 5
+Adding in the entry: 4 78 0.00513973 bucket_idx: 18 cur_col: 6
+Adding in the entry: 4 109 0.00389615 bucket_idx: 18 cur_col: 7
+Adding in the entry: 4 152 0.00251364 bucket_idx: 18 cur_col: 8
+Adding in the entry: 4 212 0.000956778 bucket_idx: 18 cur_col: 9
+Adding in the entry: 4 296 0.000659216 bucket_idx: 18 cur_col: 10
+Adding in the entry: 4 414 0.00057468 bucket_idx: 18 cur_col: 11
+Adding in the entry: 4 579 0.000468077 bucket_idx: 18 cur_col: 12
+Adding in the entry: 4 810 0.000363559 bucket_idx: 18 cur_col: 13
+Adding in the entry: 4 1134 0.000291021 bucket_idx: 18 cur_col: 14
+Adding in the entry: 4 1587 0.000204509 bucket_idx: 18 cur_col: 15
+depth for pairs 5: 511
+Adding in the entry: 5 11 0.00170411 bucket_idx: 21 cur_col: 0
+Adding in the entry: 5 15 0.00152258 bucket_idx: 21 cur_col: 1
+Adding in the entry: 5 21 0.000967773 bucket_idx: 21 cur_col: 2
+Adding in the entry: 5 29 0.000783865 bucket_idx: 21 cur_col: 3
+Adding in the entry: 5 40 0.000777993 bucket_idx: 21 cur_col: 4
+Adding in the entry: 5 56 0.000720049 bucket_idx: 21 cur_col: 5
+Adding in the entry: 5 78 0.000704221 bucket_idx: 21 cur_col: 6
+Adding in the entry: 5 109 0.000639275 bucket_idx: 21 cur_col: 7
+Adding in the entry: 5 152 0.000418759 bucket_idx: 21 cur_col: 8
+term 0 at length 93 has partial BM25 score of 12.4297
+term 1 at length 76 has partial BM25 score of 12.0046
+pair 0 at length 2012 has partial BM25 score of 10.2895 + 7.07483 = 17.3644
+pair 1 at length 172 has partial BM25 score of 3.25478 + 12.0724 = 15.3271
+pair 2 at length 1019 has partial BM25 score of 11.6383 + 2.03176 = 13.67
+pair 3 at length 250 has partial BM25 score of 2.97671 + 10.9738 = 13.9505
+pair 4 at length 1019 has partial BM25 score of 10.427 + 1.72789 = 12.1549
+pair 5 at length 359 has partial BM25 score of 4.0417 + 2.71393 = 6.75563
+cities 5543 93: 0-11-0.00109673; 0-15-0.000955795; 0-21-0.000841043; 0-29-0.000786782; 0-17-0.000629426; 
+largest 5543 76: 1-11-0.00109673; 1-15-0.000955795; 1-21-0.000841043; 1-29-0.000786782; 
+10 5543 0: 
+us 5543 0: 
+cities+largest 5543 2012: 4-11-0.0455054; 4-15-0.0328165; 4-21-0.0244716; 4-29-0.0204917; 4-40-0.0154905; 4-56-0.0130146; 4-78-0.0111356; 4-109-0.00895245; 4-152-0.00532936; 4-212-0.0019771; 4-296-0.00136894; 4-414-0.00104853; 4-579-0.000729097; 
+10+cities 172 172: 5-11-0.0143613; 5-15-0.0115607; 5-21-0.00921273; 5-29-0.00724921; 5-40-0.00652562; 5-56-0.00590236; 5-0-0.00102795; 
+cities+us 5543 1019: 6-11-0.0143613; 6-15-0.0115607; 6-21-0.00921273; 6-29-0.00724921; 6-40-0.00652562; 6-56-0.00590236; 6-78-0.00513973; 6-109-0.00389615; 6-152-0.00251364; 6-212-0.000956778; 6-296-0.000659216; 
+10+largest 250 250: 7-11-0.0143613; 7-15-0.0115607; 7-21-0.00921273; 7-29-0.00724921; 7-40-0.00652562; 7-56-0.00590236; 7-78-0.00513973; 7-0-0.00077923; 
+largest+us 5543 1019: 8-11-0.0143613; 8-15-0.0115607; 8-21-0.00921273; 8-29-0.00724921; 8-40-0.00652562; 8-56-0.00590236; 8-78-0.00513973; 8-109-0.00389615; 8-152-0.00251364; 8-212-0.000956778; 8-296-0.000659216; 
+10+us 511 359: 9-11-0.00170411; 9-15-0.00152258; 9-21-0.000967773; 9-29-0.000783865; 9-40-0.000777993; 9-56-0.000720049; 9-78-0.000704221; 9-109-0.000639275; 
+num of lookups: 8990 num of actual lookups: 2797
+singlebudget: 169
+pairbudget: 4831
+availablesinglebudget: 22172
+availablepairbudget: 17562
+radixsortsize: 9831
+depth for term 0: 5543
+Adding in the entry: 0 11 0.00212327 bucket_idx: 17 cur_col: 0
+Adding in the entry: 0 15 0.00198885 bucket_idx: 17 cur_col: 1
+Adding in the entry: 0 21 0.001899 bucket_idx: 17 cur_col: 2
+Adding in the entry: 0 29 0.0017952 bucket_idx: 17 cur_col: 3
+Adding in the entry: 0 40 0.00162023 bucket_idx: 17 cur_col: 4
+Adding in the entry: 0 56 0.00158814 bucket_idx: 17 cur_col: 5
+Adding in the entry: 0 78 0.00147723 bucket_idx: 17 cur_col: 6
+Adding in the entry: 0 109 0.00147369 bucket_idx: 17 cur_col: 7
+Adding in the entry: 0 152 0.0011696 bucket_idx: 17 cur_col: 8
+Adding in the entry: 0 212 0.0010235 bucket_idx: 17 cur_col: 9
+Adding in the entry: 0 296 0.000911587 bucket_idx: 17 cur_col: 10
+Adding in the entry: 0 414 0.000744682 bucket_idx: 17 cur_col: 11
+Adding in the entry: 0 579 0.000674996 bucket_idx: 17 cur_col: 12
+Adding in the entry: 0 810 0.000570357 bucket_idx: 17 cur_col: 13
+Adding in the entry: 0 1134 0.000454002 bucket_idx: 17 cur_col: 14
+Adding in the entry: 0 1587 0.000343166 bucket_idx: 17 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 1 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 1 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 1 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 1 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 1 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 1 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 1 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 1 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 1 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 1 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 1 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 1 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 1 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 1 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 1 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00039992 bucket_idx: 21 cur_col: 0
+Adding in the entry: 2 15 0.000359928 bucket_idx: 21 cur_col: 1
+Adding in the entry: 2 21 0.000262448 bucket_idx: 21 cur_col: 2
+Adding in the entry: 2 29 0.000239402 bucket_idx: 21 cur_col: 3
+Adding in the entry: 2 40 0.000230311 bucket_idx: 21 cur_col: 4
+Adding in the entry: 2 56 0.000195356 bucket_idx: 21 cur_col: 5
+Adding in the entry: 2 78 0.000190871 bucket_idx: 21 cur_col: 6
+Adding in the entry: 2 109 0.00018617 bucket_idx: 21 cur_col: 7
+Adding in the entry: 2 152 0.000153815 bucket_idx: 21 cur_col: 8
+Adding in the entry: 2 212 0.000137654 bucket_idx: 21 cur_col: 9
+Adding in the entry: 2 296 0.000123809 bucket_idx: 21 cur_col: 10
+Adding in the entry: 2 414 0.000123089 bucket_idx: 21 cur_col: 11
+Adding in the entry: 2 579 0.000114504 bucket_idx: 21 cur_col: 12
+Adding in the entry: 2 810 0.000106645 bucket_idx: 21 cur_col: 13
+Adding in the entry: 2 1134 8.62261e-05 bucket_idx: 21 cur_col: 14
+Adding in the entry: 2 1587 7.31423e-05 bucket_idx: 21 cur_col: 15
+depth for pairs 1: 250
+Adding in the entry: 1 11 0.0455054 bucket_idx: 16 cur_col: 0
+Adding in the entry: 1 15 0.0328165 bucket_idx: 16 cur_col: 1
+Adding in the entry: 1 21 0.0244716 bucket_idx: 16 cur_col: 2
+Adding in the entry: 1 29 0.0204917 bucket_idx: 16 cur_col: 3
+Adding in the entry: 1 40 0.0154905 bucket_idx: 16 cur_col: 4
+Adding in the entry: 1 56 0.0130146 bucket_idx: 16 cur_col: 5
+Adding in the entry: 1 78 0.0111356 bucket_idx: 16 cur_col: 6
+depth for pairs 2: 511
+Adding in the entry: 2 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 2 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 2 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 2 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 2 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 2 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 2 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 2 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 2 152 0.00152998 bucket_idx: 19 cur_col: 8
+term 0 at length 3956 has partial BM25 score of 17.6022
+term 1 at length 272 has partial BM25 score of 9.92775
+term 2 at length 11 has partial BM25 score of 4.41323
+pair 1 at length 250 has partial BM25 score of 2.56152 + 18.5312 = 21.0927
+pair 2 at length 511 has partial BM25 score of 3.6554 + 9.54158 = 13.197
+columbus 5543 3956: 0-11-0.00212327; 0-15-0.00198885; 0-21-0.001899; 0-29-0.0017952; 0-40-0.00162023; 0-56-0.00158814; 0-78-0.00147723; 0-109-0.00147369; 0-152-0.0011696; 0-212-0.0010235; 0-296-0.000911587; 0-414-0.000744682; 0-579-0.000674996; 0-810-0.000570357; 0-1134-0.000454002; 
+tv 5543 272: 1-11-0.00086041; 1-15-0.000689083; 1-21-0.000604875; 1-29-0.000545369; 1-40-0.000488792; 1-56-0.000429194; 1-78-0.000387968; 1-22-0.000369029; 
+10 5543 11: 2-11-0.00039992; 
+columbus+tv 0 0: 
+10+columbus 250 250: 4-11-0.0455054; 4-15-0.0328165; 4-21-0.0244716; 4-29-0.0204917; 4-40-0.0154905; 4-56-0.0130146; 4-78-0.0111356; 4-0-0.00179049; 
+10+tv 511 511: 5-11-0.00949764; 5-15-0.00602873; 5-21-0.00518475; 5-29-0.00492101; 5-40-0.0039245; 5-56-0.00354889; 5-78-0.0029027; 5-109-0.00226851; 5-152-0.00152998; 
+num of lookups: 8747 num of actual lookups: 1955
+singlebudget: 4239
+pairbudget: 761
+availablesinglebudget: 16629
+availablepairbudget: 761
+radixsortsize: 5761
+depth for term 0: 5543
+Adding in the entry: 0 11 0.00212327 bucket_idx: 17 cur_col: 0
+Adding in the entry: 0 15 0.00198885 bucket_idx: 17 cur_col: 1
+Adding in the entry: 0 21 0.001899 bucket_idx: 17 cur_col: 2
+Adding in the entry: 0 29 0.0017952 bucket_idx: 17 cur_col: 3
+Adding in the entry: 0 40 0.00162023 bucket_idx: 17 cur_col: 4
+Adding in the entry: 0 56 0.00158814 bucket_idx: 17 cur_col: 5
+Adding in the entry: 0 78 0.00147723 bucket_idx: 17 cur_col: 6
+Adding in the entry: 0 109 0.00147369 bucket_idx: 17 cur_col: 7
+Adding in the entry: 0 152 0.0011696 bucket_idx: 17 cur_col: 8
+Adding in the entry: 0 212 0.0010235 bucket_idx: 17 cur_col: 9
+Adding in the entry: 0 296 0.000911587 bucket_idx: 17 cur_col: 10
+Adding in the entry: 0 414 0.000744682 bucket_idx: 17 cur_col: 11
+Adding in the entry: 0 579 0.000674996 bucket_idx: 17 cur_col: 12
+Adding in the entry: 0 810 0.000570357 bucket_idx: 17 cur_col: 13
+Adding in the entry: 0 1134 0.000454002 bucket_idx: 17 cur_col: 14
+Adding in the entry: 0 1587 0.000343166 bucket_idx: 17 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 1 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 1 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 1 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 1 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 1 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 1 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 1 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 1 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 1 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 1 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 1 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 1 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 1 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 1 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 1 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 2 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 2 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 2 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 2 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 2 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 2 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 2 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 2 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 2 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 2 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 2 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 2 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 2 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 2 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 2 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for pairs 0: 5543
+Adding in the entry: 0 11 0.0631895 bucket_idx: 15 cur_col: 0
+Adding in the entry: 0 15 0.0481782 bucket_idx: 15 cur_col: 1
+Adding in the entry: 0 21 0.0353453 bucket_idx: 15 cur_col: 2
+Adding in the entry: 0 29 0.0280419 bucket_idx: 15 cur_col: 3
+Adding in the entry: 0 40 0.0229371 bucket_idx: 15 cur_col: 4
+Adding in the entry: 0 56 0.0188404 bucket_idx: 15 cur_col: 5
+Adding in the entry: 0 78 0.0144272 bucket_idx: 15 cur_col: 6
+Adding in the entry: 0 109 0.0116305 bucket_idx: 15 cur_col: 7
+Adding in the entry: 0 152 0.00676673 bucket_idx: 15 cur_col: 8
+Adding in the entry: 0 212 0.00235056 bucket_idx: 15 cur_col: 9
+Adding in the entry: 0 296 0.00161032 bucket_idx: 15 cur_col: 10
+Adding in the entry: 0 414 0.0011066 bucket_idx: 15 cur_col: 11
+Adding in the entry: 0 579 0.000733024 bucket_idx: 15 cur_col: 12
+Adding in the entry: 0 810 0.000490082 bucket_idx: 15 cur_col: 13
+Adding in the entry: 0 1134 0.000330578 bucket_idx: 15 cur_col: 14
+Adding in the entry: 0 1587 0.000216203 bucket_idx: 15 cur_col: 15
+depth for pairs 1: 511
+Adding in the entry: 1 11 0.0455054 bucket_idx: 16 cur_col: 0
+Adding in the entry: 1 15 0.0328165 bucket_idx: 16 cur_col: 1
+Adding in the entry: 1 21 0.0244716 bucket_idx: 16 cur_col: 2
+Adding in the entry: 1 29 0.0204917 bucket_idx: 16 cur_col: 3
+Adding in the entry: 1 40 0.0154905 bucket_idx: 16 cur_col: 4
+Adding in the entry: 1 56 0.0130146 bucket_idx: 16 cur_col: 5
+Adding in the entry: 1 78 0.0111356 bucket_idx: 16 cur_col: 6
+Adding in the entry: 1 109 0.00895245 bucket_idx: 16 cur_col: 7
+Adding in the entry: 1 152 0.00532936 bucket_idx: 16 cur_col: 8
+depth for pairs 2: 359
+Adding in the entry: 2 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 2 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 2 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 2 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 2 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 2 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 2 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 2 109 0.00693985 bucket_idx: 17 cur_col: 7
+term 0 at length 2012 has partial BM25 score of 16.3428
+term 1 at length 80 has partial BM25 score of 13.1422
+term 2 at length 26 has partial BM25 score of 8.5571
+pair 0 at length 2012 has partial BM25 score of 6.31969 + 14.3304 = 20.6501
+pair 1 at length 511 has partial BM25 score of 7.21988 + 14.4706 = 21.6905
+pair 2 at length 359 has partial BM25 score of 5.31302 + 12.2329 = 17.5459
+dollar 5543 2012: 0-11-0.00212327; 0-15-0.00198885; 0-21-0.001899; 0-29-0.0017952; 0-40-0.00162023; 0-56-0.00158814; 0-78-0.00147723; 0-109-0.00147369; 0-152-0.0011696; 0-212-0.0010235; 0-296-0.000911587; 0-414-0.000744682; 0-579-0.000674996; 
+bill 5543 80: 1-11-0.00109673; 1-15-0.000955795; 1-21-0.000841043; 1-29-0.000786782; 1-4-0.000629426; 
+100 5543 26: 2-11-0.00086041; 2-15-0.000689083; 
+bill+dollar 5543 2012: 3-11-0.0631895; 3-15-0.0481782; 3-21-0.0353453; 3-29-0.0280419; 3-40-0.0229371; 3-56-0.0188404; 3-78-0.0144272; 3-109-0.0116305; 3-152-0.00676673; 3-212-0.00235056; 3-296-0.00161032; 3-414-0.0011066; 3-579-0.000733024; 
+100+dollar 511 511: 4-11-0.0455054; 4-15-0.0328165; 4-21-0.0244716; 4-29-0.0204917; 4-40-0.0154905; 4-56-0.0130146; 4-78-0.0111356; 4-109-0.00895245; 4-152-0.00532936; 
+100+bill 359 359: 5-11-0.0293761; 5-15-0.0215596; 5-21-0.016201; 5-29-0.012925; 5-40-0.0110907; 5-56-0.00905444; 5-78-0.00772367; 5-109-0.00693985; 5-0-0.000731376; 
+num of lookups: 6315 num of actual lookups: 994
+singlebudget: 2118
+pairbudget: 2882
+availablesinglebudget: 16629
+availablepairbudget: 6413
+radixsortsize: 7882
+depth for term 0: 5543
+Adding in the entry: 0 11 0.00948706 bucket_idx: 15 cur_col: 0
+Adding in the entry: 0 15 0.00870451 bucket_idx: 15 cur_col: 1
+Adding in the entry: 0 21 0.00869073 bucket_idx: 15 cur_col: 2
+Adding in the entry: 0 29 0.00708064 bucket_idx: 15 cur_col: 3
+Adding in the entry: 0 40 0.00669722 bucket_idx: 15 cur_col: 4
+Adding in the entry: 0 56 0.00663577 bucket_idx: 15 cur_col: 5
+Adding in the entry: 0 78 0.00532281 bucket_idx: 15 cur_col: 6
+Adding in the entry: 0 109 0.0048018 bucket_idx: 15 cur_col: 7
+Adding in the entry: 0 152 0.0033027 bucket_idx: 15 cur_col: 8
+Adding in the entry: 0 212 0.00259552 bucket_idx: 15 cur_col: 9
+Adding in the entry: 0 296 0.00203333 bucket_idx: 15 cur_col: 10
+Adding in the entry: 0 414 0.00149961 bucket_idx: 15 cur_col: 11
+Adding in the entry: 0 579 0.00107754 bucket_idx: 15 cur_col: 12
+Adding in the entry: 0 810 0.000771233 bucket_idx: 15 cur_col: 13
+Adding in the entry: 0 1134 0.000510468 bucket_idx: 15 cur_col: 14
+Adding in the entry: 0 1587 0.000348851 bucket_idx: 15 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 1 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 1 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 1 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 1 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 1 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 1 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 1 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 1 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 1 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 1 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 1 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 1 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 1 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 1 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 1 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 2 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 2 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 2 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 2 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 2 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 2 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 2 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 2 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 2 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 2 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 2 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 2 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 2 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 2 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 2 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for term 3: 5543
+Adding in the entry: 3 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 3 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 3 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 3 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 3 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 3 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 3 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 3 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 3 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 3 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 3 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 3 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 3 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 3 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 3 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 3 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for term 4: 5543
+Adding in the entry: 4 11 0.000177221 bucket_idx: 22 cur_col: 0
+Adding in the entry: 4 15 9.92096e-05 bucket_idx: 22 cur_col: 1
+Adding in the entry: 4 21 8.00959e-05 bucket_idx: 22 cur_col: 2
+Adding in the entry: 4 29 6.49587e-05 bucket_idx: 22 cur_col: 3
+Adding in the entry: 4 40 6.27187e-05 bucket_idx: 22 cur_col: 4
+Adding in the entry: 4 56 5.50439e-05 bucket_idx: 22 cur_col: 5
+Adding in the entry: 4 78 3.72109e-05 bucket_idx: 22 cur_col: 6
+Adding in the entry: 4 109 3.54787e-05 bucket_idx: 22 cur_col: 7
+Adding in the entry: 4 152 3.46446e-05 bucket_idx: 22 cur_col: 8
+Adding in the entry: 4 212 3.43178e-05 bucket_idx: 22 cur_col: 9
+Adding in the entry: 4 296 3.19383e-05 bucket_idx: 22 cur_col: 10
+Adding in the entry: 4 414 3.07853e-05 bucket_idx: 22 cur_col: 11
+Adding in the entry: 4 579 2.89961e-05 bucket_idx: 22 cur_col: 12
+Adding in the entry: 4 810 2.77354e-05 bucket_idx: 22 cur_col: 13
+Adding in the entry: 4 1134 2.72826e-05 bucket_idx: 22 cur_col: 14
+Adding in the entry: 4 1587 2.67942e-05 bucket_idx: 22 cur_col: 15
+depth for term 5: 5543
+Adding in the entry: 5 11 8.78986e-05 bucket_idx: 23 cur_col: 0
+Adding in the entry: 5 15 3.45316e-05 bucket_idx: 23 cur_col: 1
+Adding in the entry: 5 21 2.41721e-05 bucket_idx: 23 cur_col: 2
+Adding in the entry: 5 29 1.99586e-05 bucket_idx: 23 cur_col: 3
+Adding in the entry: 5 40 1.54949e-05 bucket_idx: 23 cur_col: 4
+Adding in the entry: 5 56 1.11319e-05 bucket_idx: 23 cur_col: 5
+Adding in the entry: 5 78 6.24484e-06 bucket_idx: 23 cur_col: 6
+Adding in the entry: 5 109 4.68947e-06 bucket_idx: 23 cur_col: 7
+Adding in the entry: 5 152 4.56077e-06 bucket_idx: 23 cur_col: 8
+Adding in the entry: 5 212 4.16569e-06 bucket_idx: 23 cur_col: 9
+Adding in the entry: 5 296 4.08313e-06 bucket_idx: 23 cur_col: 10
+Adding in the entry: 5 414 3.73194e-06 bucket_idx: 23 cur_col: 11
+Adding in the entry: 5 579 3.69009e-06 bucket_idx: 23 cur_col: 12
+Adding in the entry: 5 810 3.5032e-06 bucket_idx: 23 cur_col: 13
+Adding in the entry: 5 1134 3.04736e-06 bucket_idx: 23 cur_col: 14
+Adding in the entry: 5 1587 2.94782e-06 bucket_idx: 23 cur_col: 15
+depth for pairs 3: 5543
+Adding in the entry: 3 11 0.0631895 bucket_idx: 15 cur_col: 0
+Adding in the entry: 3 15 0.0481782 bucket_idx: 15 cur_col: 1
+Adding in the entry: 3 21 0.0353453 bucket_idx: 15 cur_col: 2
+Adding in the entry: 3 29 0.0280419 bucket_idx: 15 cur_col: 3
+Adding in the entry: 3 40 0.0229371 bucket_idx: 15 cur_col: 4
+Adding in the entry: 3 56 0.0188404 bucket_idx: 15 cur_col: 5
+Adding in the entry: 3 78 0.0144272 bucket_idx: 15 cur_col: 6
+Adding in the entry: 3 109 0.0116305 bucket_idx: 15 cur_col: 7
+Adding in the entry: 3 152 0.00676673 bucket_idx: 15 cur_col: 8
+Adding in the entry: 3 212 0.00235056 bucket_idx: 15 cur_col: 9
+Adding in the entry: 3 296 0.00161032 bucket_idx: 15 cur_col: 10
+Adding in the entry: 3 414 0.0011066 bucket_idx: 15 cur_col: 11
+Adding in the entry: 3 579 0.000733024 bucket_idx: 15 cur_col: 12
+Adding in the entry: 3 810 0.000490082 bucket_idx: 15 cur_col: 13
+Adding in the entry: 3 1134 0.000330578 bucket_idx: 15 cur_col: 14
+Adding in the entry: 3 1587 0.000216203 bucket_idx: 15 cur_col: 15
+depth for pairs 4: 5543
+Adding in the entry: 4 11 0.0631895 bucket_idx: 15 cur_col: 0
+Adding in the entry: 4 15 0.0481782 bucket_idx: 15 cur_col: 1
+Adding in the entry: 4 21 0.0353453 bucket_idx: 15 cur_col: 2
+Adding in the entry: 4 29 0.0280419 bucket_idx: 15 cur_col: 3
+Adding in the entry: 4 40 0.0229371 bucket_idx: 15 cur_col: 4
+Adding in the entry: 4 56 0.0188404 bucket_idx: 15 cur_col: 5
+Adding in the entry: 4 78 0.0144272 bucket_idx: 15 cur_col: 6
+Adding in the entry: 4 109 0.0116305 bucket_idx: 15 cur_col: 7
+Adding in the entry: 4 152 0.00676673 bucket_idx: 15 cur_col: 8
+Adding in the entry: 4 212 0.00235056 bucket_idx: 15 cur_col: 9
+Adding in the entry: 4 296 0.00161032 bucket_idx: 15 cur_col: 10
+Adding in the entry: 4 414 0.0011066 bucket_idx: 15 cur_col: 11
+Adding in the entry: 4 579 0.000733024 bucket_idx: 15 cur_col: 12
+Adding in the entry: 4 810 0.000490082 bucket_idx: 15 cur_col: 13
+Adding in the entry: 4 1134 0.000330578 bucket_idx: 15 cur_col: 14
+Adding in the entry: 4 1587 0.000216203 bucket_idx: 15 cur_col: 15
+depth for pairs 5: 5543
+Adding in the entry: 5 11 0.0143613 bucket_idx: 18 cur_col: 0
+Adding in the entry: 5 15 0.0115607 bucket_idx: 18 cur_col: 1
+Adding in the entry: 5 21 0.00921273 bucket_idx: 18 cur_col: 2
+Adding in the entry: 5 29 0.00724921 bucket_idx: 18 cur_col: 3
+Adding in the entry: 5 40 0.00652562 bucket_idx: 18 cur_col: 4
+Adding in the entry: 5 56 0.00590236 bucket_idx: 18 cur_col: 5
+Adding in the entry: 5 78 0.00513973 bucket_idx: 18 cur_col: 6
+Adding in the entry: 5 109 0.00389615 bucket_idx: 18 cur_col: 7
+Adding in the entry: 5 152 0.00251364 bucket_idx: 18 cur_col: 8
+Adding in the entry: 5 212 0.000956778 bucket_idx: 18 cur_col: 9
+Adding in the entry: 5 296 0.000659216 bucket_idx: 18 cur_col: 10
+Adding in the entry: 5 414 0.00057468 bucket_idx: 18 cur_col: 11
+Adding in the entry: 5 579 0.000468077 bucket_idx: 18 cur_col: 12
+Adding in the entry: 5 810 0.000363559 bucket_idx: 18 cur_col: 13
+Adding in the entry: 5 1134 0.000291021 bucket_idx: 18 cur_col: 14
+Adding in the entry: 5 1587 0.000204509 bucket_idx: 18 cur_col: 15
+depth for pairs 7: 5543
+Adding in the entry: 7 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 7 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 7 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 7 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 7 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 7 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 7 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 7 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 7 152 0.00152998 bucket_idx: 19 cur_col: 8
+Adding in the entry: 7 212 0.000606764 bucket_idx: 19 cur_col: 9
+Adding in the entry: 7 296 0.000418782 bucket_idx: 19 cur_col: 10
+Adding in the entry: 7 414 0.000289676 bucket_idx: 19 cur_col: 11
+Adding in the entry: 7 579 0.000254759 bucket_idx: 19 cur_col: 12
+Adding in the entry: 7 810 0.000214125 bucket_idx: 19 cur_col: 13
+Adding in the entry: 7 1134 0.000150084 bucket_idx: 19 cur_col: 14
+Adding in the entry: 7 1587 0.000134845 bucket_idx: 19 cur_col: 15
+depth for pairs 8: 5543
+Adding in the entry: 8 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 8 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 8 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 8 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 8 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 8 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 8 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 8 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 8 152 0.00152998 bucket_idx: 19 cur_col: 8
+Adding in the entry: 8 212 0.000606764 bucket_idx: 19 cur_col: 9
+Adding in the entry: 8 296 0.000418782 bucket_idx: 19 cur_col: 10
+Adding in the entry: 8 414 0.000289676 bucket_idx: 19 cur_col: 11
+Adding in the entry: 8 579 0.000254759 bucket_idx: 19 cur_col: 12
+Adding in the entry: 8 810 0.000214125 bucket_idx: 19 cur_col: 13
+Adding in the entry: 8 1134 0.000150084 bucket_idx: 19 cur_col: 14
+Adding in the entry: 8 1587 0.000134845 bucket_idx: 19 cur_col: 15
+depth for pairs 9: 511
+Adding in the entry: 9 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 9 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 9 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 9 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 9 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 9 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 9 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 9 109 0.00693985 bucket_idx: 17 cur_col: 7
+Adding in the entry: 9 152 0.00365688 bucket_idx: 17 cur_col: 8
+depth for pairs 10: 5543
+Adding in the entry: 10 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 10 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 10 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 10 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 10 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 10 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 10 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 10 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 10 152 0.00152998 bucket_idx: 19 cur_col: 8
+Adding in the entry: 10 212 0.000606764 bucket_idx: 19 cur_col: 9
+Adding in the entry: 10 296 0.000418782 bucket_idx: 19 cur_col: 10
+Adding in the entry: 10 414 0.000289676 bucket_idx: 19 cur_col: 11
+Adding in the entry: 10 579 0.000254759 bucket_idx: 19 cur_col: 12
+Adding in the entry: 10 810 0.000214125 bucket_idx: 19 cur_col: 13
+Adding in the entry: 10 1134 0.000150084 bucket_idx: 19 cur_col: 14
+Adding in the entry: 10 1587 0.000134845 bucket_idx: 19 cur_col: 15
+depth for pairs 11: 5543
+Adding in the entry: 11 11 0.00372707 bucket_idx: 20 cur_col: 0
+Adding in the entry: 11 15 0.00210728 bucket_idx: 20 cur_col: 1
+Adding in the entry: 11 21 0.00209936 bucket_idx: 20 cur_col: 2
+Adding in the entry: 11 29 0.0019705 bucket_idx: 20 cur_col: 3
+Adding in the entry: 11 40 0.00193239 bucket_idx: 20 cur_col: 4
+Adding in the entry: 11 56 0.00176259 bucket_idx: 20 cur_col: 5
+Adding in the entry: 11 78 0.00150298 bucket_idx: 20 cur_col: 6
+Adding in the entry: 11 109 0.00124295 bucket_idx: 20 cur_col: 7
+Adding in the entry: 11 152 0.000716395 bucket_idx: 20 cur_col: 8
+Adding in the entry: 11 212 0.000414353 bucket_idx: 20 cur_col: 9
+Adding in the entry: 11 296 0.000254042 bucket_idx: 20 cur_col: 10
+Adding in the entry: 11 414 0.000225133 bucket_idx: 20 cur_col: 11
+Adding in the entry: 11 579 0.000186422 bucket_idx: 20 cur_col: 12
+Adding in the entry: 11 810 0.000154055 bucket_idx: 20 cur_col: 13
+Adding in the entry: 11 1134 0.000115439 bucket_idx: 20 cur_col: 14
+Adding in the entry: 11 1587 9.6126e-05 bucket_idx: 20 cur_col: 15
+depth for pairs 12: 511
+Adding in the entry: 12 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 12 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 12 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 12 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 12 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 12 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 12 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 12 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 12 152 0.00152998 bucket_idx: 19 cur_col: 8
+depth for pairs 13: 5543
+Adding in the entry: 13 11 0.00372707 bucket_idx: 20 cur_col: 0
+Adding in the entry: 13 15 0.00210728 bucket_idx: 20 cur_col: 1
+Adding in the entry: 13 21 0.00209936 bucket_idx: 20 cur_col: 2
+Adding in the entry: 13 29 0.0019705 bucket_idx: 20 cur_col: 3
+Adding in the entry: 13 40 0.00193239 bucket_idx: 20 cur_col: 4
+Adding in the entry: 13 56 0.00176259 bucket_idx: 20 cur_col: 5
+Adding in the entry: 13 78 0.00150298 bucket_idx: 20 cur_col: 6
+Adding in the entry: 13 109 0.00124295 bucket_idx: 20 cur_col: 7
+Adding in the entry: 13 152 0.000716395 bucket_idx: 20 cur_col: 8
+Adding in the entry: 13 212 0.000414353 bucket_idx: 20 cur_col: 9
+Adding in the entry: 13 296 0.000254042 bucket_idx: 20 cur_col: 10
+Adding in the entry: 13 414 0.000225133 bucket_idx: 20 cur_col: 11
+Adding in the entry: 13 579 0.000186422 bucket_idx: 20 cur_col: 12
+Adding in the entry: 13 810 0.000154055 bucket_idx: 20 cur_col: 13
+Adding in the entry: 13 1134 0.000115439 bucket_idx: 20 cur_col: 14
+Adding in the entry: 13 1587 9.6126e-05 bucket_idx: 20 cur_col: 15
+depth for pairs 14: 5543
+Adding in the entry: 14 11 0.000109257 bucket_idx: 22 cur_col: 0
+Adding in the entry: 14 15 0.000105872 bucket_idx: 22 cur_col: 1
+Adding in the entry: 14 21 8.74563e-05 bucket_idx: 22 cur_col: 2
+Adding in the entry: 14 29 6.08178e-05 bucket_idx: 22 cur_col: 3
+Adding in the entry: 14 40 4.61193e-05 bucket_idx: 22 cur_col: 4
+Adding in the entry: 14 56 4.48277e-05 bucket_idx: 22 cur_col: 5
+Adding in the entry: 14 78 3.93307e-05 bucket_idx: 22 cur_col: 6
+Adding in the entry: 14 109 3.86038e-05 bucket_idx: 22 cur_col: 7
+Adding in the entry: 14 152 3.53921e-05 bucket_idx: 22 cur_col: 8
+Adding in the entry: 14 212 2.9577e-05 bucket_idx: 22 cur_col: 9
+Adding in the entry: 14 296 2.19394e-05 bucket_idx: 22 cur_col: 10
+Adding in the entry: 14 414 1.9394e-05 bucket_idx: 22 cur_col: 11
+Adding in the entry: 14 579 1.79219e-05 bucket_idx: 22 cur_col: 12
+Adding in the entry: 14 810 1.36877e-05 bucket_idx: 22 cur_col: 13
+Adding in the entry: 14 1134 1.32961e-05 bucket_idx: 22 cur_col: 14
+Adding in the entry: 14 1587 1.25028e-05 bucket_idx: 22 cur_col: 15
+term 0 at length 1002 has partial BM25 score of 18.6957
+pair 3 at length 723 has partial BM25 score of 18.7592 + 1.90312 = 20.6624
+pair 4 at length 723 has partial BM25 score of 19.1332 + 0.414586 = 19.5477
+pair 5 at length 511 has partial BM25 score of 10.4286 + 7.74565 = 18.1742
+pair 7 at length 359 has partial BM25 score of 10.8668 + 2.11784 = 12.9846
+pair 8 at length 359 has partial BM25 score of 10.803 + 0.378219 = 11.1812
+pair 9 at length 511 has partial BM25 score of 5.49873 + 8.53303 = 14.0318
+pair 10 at length 359 has partial BM25 score of 8.50716 + 2.75314 = 11.2603
+pair 11 at length 47 has partial BM25 score of 9.09194 + 0.409195 = 9.50114
+pair 12 at length 359 has partial BM25 score of 8.2441 + 2.28003 = 10.5241
+pair 13 at length 47 has partial BM25 score of 8.48408 + 0.40085 = 8.88493
+boyfriend 5543 1002: 0-11-0.00948706; 0-15-0.00870451; 0-21-0.00869073; 0-29-0.00708064; 0-40-0.00669722; 0-56-0.00663577; 0-78-0.00532281; 0-109-0.0048018; 0-152-0.0033027; 0-212-0.00259552; 0-279-0.00203333; 
+ask 5543 0: 
+questions 5543 0: 
+100 5543 0: 
+your 5543 0: 
+to 5543 0: 
+ask+boyfriend 0 0: 
+boyfriend+questions 0 0: 
+100+boyfriend 0 0: 
+boyfriend+your 5543 723: 9-11-0.0631895; 9-15-0.0481782; 9-21-0.0353453; 9-29-0.0280419; 9-40-0.0229371; 9-56-0.0188404; 9-78-0.0144272; 9-109-0.0116305; 9-152-0.00676673; 9-212-0.00235056; 
+boyfriend+to 5543 723: 10-11-0.0631895; 10-15-0.0481782; 10-21-0.0353453; 10-29-0.0280419; 10-40-0.0229371; 10-56-0.0188404; 10-78-0.0144272; 10-109-0.0116305; 10-152-0.00676673; 10-212-0.00235056; 
+ask+questions 5543 511: 11-11-0.0143613; 11-15-0.0115607; 11-21-0.00921273; 11-29-0.00724921; 11-40-0.00652562; 11-56-0.00590236; 11-78-0.00513973; 11-109-0.00389615; 11-152-0.00251364; 
+100+ask 0 0: 
+ask+your 5543 359: 13-11-0.00949764; 13-15-0.00602873; 13-21-0.00518475; 13-29-0.00492101; 13-40-0.0039245; 13-56-0.00354889; 13-78-0.0029027; 13-109-0.00226851; 
+ask+to 5543 359: 14-11-0.00949764; 14-15-0.00602873; 14-21-0.00518475; 14-29-0.00492101; 14-40-0.0039245; 14-56-0.00354889; 14-78-0.0029027; 14-109-0.00226851; 
+100+questions 511 511: 15-11-0.0293761; 15-15-0.0215596; 15-21-0.016201; 15-29-0.012925; 15-40-0.0110907; 15-56-0.00905444; 15-78-0.00772367; 15-109-0.00693985; 15-152-0.00365688; 
+questions+your 5543 359: 16-11-0.00949764; 16-15-0.00602873; 16-21-0.00518475; 16-29-0.00492101; 16-40-0.0039245; 16-56-0.00354889; 16-78-0.0029027; 16-109-0.00226851; 
+questions+to 5543 47: 17-11-0.00372707; 17-15-0.00210728; 17-21-0.00209936; 
+100+your 511 359: 18-11-0.00949764; 18-15-0.00602873; 18-21-0.00518475; 18-29-0.00492101; 18-40-0.0039245; 18-56-0.00354889; 18-78-0.0029027; 18-109-0.00226851; 
+100+to 5543 47: 19-11-0.00372707; 19-15-0.00210728; 19-21-0.00209936; 
+to+your 5543 0: 
+num of lookups: 12535 num of actual lookups: 4161
+singlebudget: 1002
+pairbudget: 3998
+availablesinglebudget: 33258
+availablepairbudget: 50909
+radixsortsize: 8998
+depth for term 0: 5543
+Adding in the entry: 0 11 0.0158391 bucket_idx: 14 cur_col: 0
+Adding in the entry: 0 15 0.0157892 bucket_idx: 14 cur_col: 1
+Adding in the entry: 0 21 0.012374 bucket_idx: 14 cur_col: 2
+Adding in the entry: 0 29 0.0120855 bucket_idx: 14 cur_col: 3
+Adding in the entry: 0 40 0.0109218 bucket_idx: 14 cur_col: 4
+Adding in the entry: 0 56 0.00990871 bucket_idx: 14 cur_col: 5
+Adding in the entry: 0 78 0.00816733 bucket_idx: 14 cur_col: 6
+Adding in the entry: 0 109 0.00687001 bucket_idx: 14 cur_col: 7
+Adding in the entry: 0 152 0.00460863 bucket_idx: 14 cur_col: 8
+Adding in the entry: 0 212 0.00289258 bucket_idx: 14 cur_col: 9
+Adding in the entry: 0 296 0.00219508 bucket_idx: 14 cur_col: 10
+Adding in the entry: 0 414 0.00151941 bucket_idx: 14 cur_col: 11
+Adding in the entry: 0 579 0.00100373 bucket_idx: 14 cur_col: 12
+Adding in the entry: 0 810 0.000590206 bucket_idx: 14 cur_col: 13
+Adding in the entry: 0 1134 0.000368167 bucket_idx: 14 cur_col: 14
+Adding in the entry: 0 1587 0.000211443 bucket_idx: 14 cur_col: 15
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00109673 bucket_idx: 19 cur_col: 0
+Adding in the entry: 1 15 0.000955795 bucket_idx: 19 cur_col: 1
+Adding in the entry: 1 21 0.000841043 bucket_idx: 19 cur_col: 2
+Adding in the entry: 1 29 0.000786782 bucket_idx: 19 cur_col: 3
+Adding in the entry: 1 40 0.000629426 bucket_idx: 19 cur_col: 4
+Adding in the entry: 1 56 0.000538571 bucket_idx: 19 cur_col: 5
+Adding in the entry: 1 78 0.000530938 bucket_idx: 19 cur_col: 6
+Adding in the entry: 1 109 0.000524521 bucket_idx: 19 cur_col: 7
+Adding in the entry: 1 152 0.000453205 bucket_idx: 19 cur_col: 8
+Adding in the entry: 1 212 0.000357103 bucket_idx: 19 cur_col: 9
+Adding in the entry: 1 296 0.000338753 bucket_idx: 19 cur_col: 10
+Adding in the entry: 1 414 0.000300903 bucket_idx: 19 cur_col: 11
+Adding in the entry: 1 579 0.000258939 bucket_idx: 19 cur_col: 12
+Adding in the entry: 1 810 0.000222868 bucket_idx: 19 cur_col: 13
+Adding in the entry: 1 1134 0.000191415 bucket_idx: 19 cur_col: 14
+Adding in the entry: 1 1587 0.000162116 bucket_idx: 19 cur_col: 15
+depth for term 2: 5543
+Adding in the entry: 2 11 0.00086041 bucket_idx: 20 cur_col: 0
+Adding in the entry: 2 15 0.000689083 bucket_idx: 20 cur_col: 1
+Adding in the entry: 2 21 0.000604875 bucket_idx: 20 cur_col: 2
+Adding in the entry: 2 29 0.000545369 bucket_idx: 20 cur_col: 3
+Adding in the entry: 2 40 0.000488792 bucket_idx: 20 cur_col: 4
+Adding in the entry: 2 56 0.000429194 bucket_idx: 20 cur_col: 5
+Adding in the entry: 2 78 0.000387968 bucket_idx: 20 cur_col: 6
+Adding in the entry: 2 109 0.000369029 bucket_idx: 20 cur_col: 7
+Adding in the entry: 2 152 0.000317887 bucket_idx: 20 cur_col: 8
+Adding in the entry: 2 212 0.000245541 bucket_idx: 20 cur_col: 9
+Adding in the entry: 2 296 0.000232237 bucket_idx: 20 cur_col: 10
+Adding in the entry: 2 414 0.00019823 bucket_idx: 20 cur_col: 11
+Adding in the entry: 2 579 0.000172712 bucket_idx: 20 cur_col: 12
+Adding in the entry: 2 810 0.0001519 bucket_idx: 20 cur_col: 13
+Adding in the entry: 2 1134 0.000136283 bucket_idx: 20 cur_col: 14
+Adding in the entry: 2 1587 0.000121787 bucket_idx: 20 cur_col: 15
+depth for term 3: 5543
+Adding in the entry: 3 11 0.00039992 bucket_idx: 21 cur_col: 0
+Adding in the entry: 3 15 0.000359928 bucket_idx: 21 cur_col: 1
+Adding in the entry: 3 21 0.000262448 bucket_idx: 21 cur_col: 2
+Adding in the entry: 3 29 0.000239402 bucket_idx: 21 cur_col: 3
+Adding in the entry: 3 40 0.000230311 bucket_idx: 21 cur_col: 4
+Adding in the entry: 3 56 0.000195356 bucket_idx: 21 cur_col: 5
+Adding in the entry: 3 78 0.000190871 bucket_idx: 21 cur_col: 6
+Adding in the entry: 3 109 0.00018617 bucket_idx: 21 cur_col: 7
+Adding in the entry: 3 152 0.000153815 bucket_idx: 21 cur_col: 8
+Adding in the entry: 3 212 0.000137654 bucket_idx: 21 cur_col: 9
+Adding in the entry: 3 296 0.000123809 bucket_idx: 21 cur_col: 10
+Adding in the entry: 3 414 0.000123089 bucket_idx: 21 cur_col: 11
+Adding in the entry: 3 579 0.000114504 bucket_idx: 21 cur_col: 12
+Adding in the entry: 3 810 0.000106645 bucket_idx: 21 cur_col: 13
+Adding in the entry: 3 1134 8.62261e-05 bucket_idx: 21 cur_col: 14
+Adding in the entry: 3 1587 7.31423e-05 bucket_idx: 21 cur_col: 15
+depth for pairs 1: 5543
+Adding in the entry: 1 11 0.267007 bucket_idx: 12 cur_col: 0
+Adding in the entry: 1 15 0.14519 bucket_idx: 12 cur_col: 1
+Adding in the entry: 1 21 0.086315 bucket_idx: 12 cur_col: 2
+Adding in the entry: 1 29 0.0546615 bucket_idx: 12 cur_col: 3
+Adding in the entry: 1 40 0.0387728 bucket_idx: 12 cur_col: 4
+Adding in the entry: 1 56 0.0275176 bucket_idx: 12 cur_col: 5
+Adding in the entry: 1 78 0.0191718 bucket_idx: 12 cur_col: 6
+Adding in the entry: 1 109 0.013344 bucket_idx: 12 cur_col: 7
+Adding in the entry: 1 152 0.00734495 bucket_idx: 12 cur_col: 8
+Adding in the entry: 1 212 0.00201154 bucket_idx: 12 cur_col: 9
+Adding in the entry: 1 296 0.0010379 bucket_idx: 12 cur_col: 10
+Adding in the entry: 1 414 0.000510856 bucket_idx: 12 cur_col: 11
+Adding in the entry: 1 579 0.000255525 bucket_idx: 12 cur_col: 12
+Adding in the entry: 1 810 0.000131534 bucket_idx: 12 cur_col: 13
+Adding in the entry: 1 1134 6.73499e-05 bucket_idx: 12 cur_col: 14
+Adding in the entry: 1 1587 3.27423e-05 bucket_idx: 12 cur_col: 15
+depth for pairs 3: 5543
+Adding in the entry: 3 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 3 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 3 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 3 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 3 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 3 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 3 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 3 109 0.00693985 bucket_idx: 17 cur_col: 7
+Adding in the entry: 3 152 0.00365688 bucket_idx: 17 cur_col: 8
+Adding in the entry: 3 212 0.00145768 bucket_idx: 17 cur_col: 9
+Adding in the entry: 3 296 0.00113718 bucket_idx: 17 cur_col: 10
+Adding in the entry: 3 414 0.000831598 bucket_idx: 17 cur_col: 11
+Adding in the entry: 3 579 0.000684949 bucket_idx: 17 cur_col: 12
+Adding in the entry: 3 810 0.000499434 bucket_idx: 17 cur_col: 13
+Adding in the entry: 3 1134 0.000362306 bucket_idx: 17 cur_col: 14
+Adding in the entry: 3 1587 0.000258495 bucket_idx: 17 cur_col: 15
+depth for pairs 4: 5543
+Adding in the entry: 4 11 0.0293761 bucket_idx: 17 cur_col: 0
+Adding in the entry: 4 15 0.0215596 bucket_idx: 17 cur_col: 1
+Adding in the entry: 4 21 0.016201 bucket_idx: 17 cur_col: 2
+Adding in the entry: 4 29 0.012925 bucket_idx: 17 cur_col: 3
+Adding in the entry: 4 40 0.0110907 bucket_idx: 17 cur_col: 4
+Adding in the entry: 4 56 0.00905444 bucket_idx: 17 cur_col: 5
+Adding in the entry: 4 78 0.00772367 bucket_idx: 17 cur_col: 6
+Adding in the entry: 4 109 0.00693985 bucket_idx: 17 cur_col: 7
+Adding in the entry: 4 152 0.00365688 bucket_idx: 17 cur_col: 8
+Adding in the entry: 4 212 0.00145768 bucket_idx: 17 cur_col: 9
+Adding in the entry: 4 296 0.00113718 bucket_idx: 17 cur_col: 10
+Adding in the entry: 4 414 0.000831598 bucket_idx: 17 cur_col: 11
+Adding in the entry: 4 579 0.000684949 bucket_idx: 17 cur_col: 12
+Adding in the entry: 4 810 0.000499434 bucket_idx: 17 cur_col: 13
+Adding in the entry: 4 1134 0.000362306 bucket_idx: 17 cur_col: 14
+Adding in the entry: 4 1587 0.000258495 bucket_idx: 17 cur_col: 15
+depth for pairs 5: 5543
+Adding in the entry: 5 11 0.00949764 bucket_idx: 19 cur_col: 0
+Adding in the entry: 5 15 0.00602873 bucket_idx: 19 cur_col: 1
+Adding in the entry: 5 21 0.00518475 bucket_idx: 19 cur_col: 2
+Adding in the entry: 5 29 0.00492101 bucket_idx: 19 cur_col: 3
+Adding in the entry: 5 40 0.0039245 bucket_idx: 19 cur_col: 4
+Adding in the entry: 5 56 0.00354889 bucket_idx: 19 cur_col: 5
+Adding in the entry: 5 78 0.0029027 bucket_idx: 19 cur_col: 6
+Adding in the entry: 5 109 0.00226851 bucket_idx: 19 cur_col: 7
+Adding in the entry: 5 152 0.00152998 bucket_idx: 19 cur_col: 8
+Adding in the entry: 5 212 0.000606764 bucket_idx: 19 cur_col: 9
+Adding in the entry: 5 296 0.000418782 bucket_idx: 19 cur_col: 10
+Adding in the entry: 5 414 0.000289676 bucket_idx: 19 cur_col: 11
+Adding in the entry: 5 579 0.000254759 bucket_idx: 19 cur_col: 12
+Adding in the entry: 5 810 0.000214125 bucket_idx: 19 cur_col: 13
+Adding in the entry: 5 1134 0.000150084 bucket_idx: 19 cur_col: 14
+Adding in the entry: 5 1587 0.000134845 bucket_idx: 19 cur_col: 15
+term 0 at length 1433 has partial BM25 score of 21.3612
+term 1 at length 11 has partial BM25 score of 13.2475
+pair 1 at length 1007 has partial BM25 score of 16.3447 + 7.09731 = 23.442
+pair 3 at length 1019 has partial BM25 score of 6.12471 + 12.1698 = 18.2945
+pair 4 at length 1019 has partial BM25 score of 2.3623 + 12.8163 = 15.1786
+pair 5 at length 511 has partial BM25 score of 4.50113 + 7.63624 = 12.1374
+1040 5543 1433: 0-11-0.0158391; 0-15-0.0157892; 0-21-0.012374; 0-29-0.0120855; 0-40-0.0109218; 0-56-0.00990871; 0-78-0.00816733; 0-109-0.00687001; 0-152-0.00460863; 0-212-0.00289258; 0-296-0.00219508; 0-414-0.00151941; 
+schedule 5543 11: 1-11-0.00109673; 
+form 5543 0: 
+d 5543 0: 
+1040+schedule 0 0: 
+1040+form 5543 1007: 5-11-0.267007; 5-15-0.14519; 5-21-0.086315; 5-29-0.0546615; 5-40-0.0387728; 5-56-0.0275176; 5-78-0.0191718; 5-109-0.013344; 5-152-0.00734495; 5-212-0.00201154; 5-284-0.0010379; 
+1040+d 0 0: 
+form+schedule 5543 1019: 7-11-0.0293761; 7-15-0.0215596; 7-21-0.016201; 7-29-0.012925; 7-40-0.0110907; 7-56-0.00905444; 7-78-0.00772367; 7-109-0.00693985; 7-152-0.00365688; 7-212-0.00145768; 7-296-0.00113718; 
+d+schedule 5543 1019: 8-11-0.0293761; 8-15-0.0215596; 8-21-0.016201; 8-29-0.012925; 8-40-0.0110907; 8-56-0.00905444; 8-78-0.00772367; 8-109-0.00693985; 8-152-0.00365688; 8-212-0.00145768; 8-296-0.00113718; 
+d+form 5543 511: 9-11-0.00949764; 9-15-0.00602873; 9-21-0.00518475; 9-29-0.00492101; 9-40-0.0039245; 9-56-0.00354889; 9-78-0.0029027; 9-109-0.00226851; 9-152-0.00152998; 
+num of lookups: 9329 num of actual lookups: 1159
+singlebudget: 1444
+pairbudget: 3556
+availablesinglebudget: 22172
+availablepairbudget: 22172
+radixsortsize: 8556
+depth for term 0: 1676
+Adding in the entry: 0 11 0.150396 bucket_idx: 9 cur_col: 0
+Adding in the entry: 0 15 0.130607 bucket_idx: 9 cur_col: 1
+Adding in the entry: 0 21 0.065272 bucket_idx: 9 cur_col: 2
+Adding in the entry: 0 29 0.0330725 bucket_idx: 9 cur_col: 3
+Adding in the entry: 0 40 0.0155343 bucket_idx: 9 cur_col: 4
+Adding in the entry: 0 56 0.00836317 bucket_idx: 9 cur_col: 5
+Adding in the entry: 0 78 0.00451593 bucket_idx: 9 cur_col: 6
+Adding in the entry: 0 109 0.00347365 bucket_idx: 9 cur_col: 7
+Adding in the entry: 0 152 0.00157096 bucket_idx: 9 cur_col: 8
+Adding in the entry: 0 212 0.000970777 bucket_idx: 9 cur_col: 9
+Adding in the entry: 0 296 0.000467981 bucket_idx: 9 cur_col: 10
+Adding in the entry: 0 414 0.000241442 bucket_idx: 9 cur_col: 11
+depth for term 1: 5543
+Adding in the entry: 1 11 0.00948706 bucket_idx: 15 cur_col: 0
+Adding in the entry: 1 15 0.00870451 bucket_idx: 15 cur_col: 1
+Adding in the entry: 1 21 0.00869073 bucket_idx: 15 cur_col: 2
+Adding in the entry: 1 29 0.00708064 bucket_idx: 15 cur_col: 3
+Adding in the entry: 1 40 0.00669722 bucket_idx: 15 cur_col: 4
+Adding in the entry: 1 56 0.00663577 bucket_idx: 15 cur_col: 5
+Adding in the entry: 1 78 0.00532281 bucket_idx: 15 cur_col: 6
+Adding in the entry: 1 109 0.0048018 bucket_idx: 15 cur_col: 7
+Adding in the entry: 1 152 0.0033027 bucket_idx: 15 cur_col: 8
+Adding in the entry: 1 212 0.00259552 bucket_idx: 15 cur_col: 9
+Adding in the entry: 1 296 0.00203333 bucket_idx: 15 cur_col: 10
+Adding in the entry: 1 414 0.00149961 bucket_idx: 15 cur_col: 11
+Adding in the entry: 1 579 0.00107754 bucket_idx: 15 cur_col: 12
+Adding in the entry: 1 810 0.000771233 bucket_idx: 15 cur_col: 13
+Adding in the entry: 1 1134 0.000510468 bucket_idx: 15 cur_col: 14
+Adding in the entry: 1 1587 0.000348851 bucket_idx: 15 cur_col: 15
+term 0 at length 1019 has partial BM25 score of 13.1244
+term 1 at length 3981 has partial BM25 score of 18.2542
+1040a 1676 1019: 0-11-0.150396; 0-15-0.130607; 0-21-0.065272; 0-29-0.0330725; 0-40-0.0155343; 0-56-0.00836317; 0-78-0.00451593; 0-109-0.00347365; 0-152-0.00157096; 0-212-0.000970777; 0-296-0.000467981; 
+booklet 5543 3981: 1-11-0.00948706; 1-15-0.00870451; 1-21-0.00869073; 1-29-0.00708064; 1-40-0.00669722; 1-56-0.00663577; 1-78-0.00532281; 1-109-0.0048018; 1-152-0.0033027; 1-212-0.00259552; 1-296-0.00203333; 1-414-0.00149961; 1-579-0.00107754; 1-810-0.000771233; 1-1134-0.000510468; 1-25-0.000348851; 
+1040a+booklet 0 0: 
+num of lookups: 4996 num of actual lookups: 30
+singlebudget: 5000
+pairbudget: 0
+availablesinglebudget: 7219
+availablepairbudget: 0
+radixsortsize: 5000
+Query number: 10
+Average Lookups without using classes: 8307.6
+Average budget spent on single: 2394.9
+Average budget spent on pair: 2605.1
+Average available budget on single: 13572.6
+Average available budget on pair: 12850.7
+Average radixsortsize: 7605.1
+==============
+[13] Total and average Query Processing time (ms):  total: 20.658(20.658) count: 10 avg: 2.0658
+[15] Total and average merging time (ms):  total: 1.19(1.19) count: 10 avg: 0.119
+[16] Total and average lookup time (ms):  total: 17.572(17.572) count: 10 avg: 1.7572
+[20] Total and average preparation time (ms):  total: 4.129(4.129) count: 10 avg: 0.4129
+[23] Total and average sorting time (ms):  total: 1.562(1.562) count: 10 avg: 0.1562
+[34] Total and average first keeptop time (ms):  total: 0.325(0.325) count: 10 avg: 0.0325
