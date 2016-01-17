@@ -33,9 +33,10 @@ public:
 	  float score() const { return curr<queriesP.size() ? queriesP.score(queriesP[curr]) : -1.0; }
 	  void changeSkipPolicy(size_t lim, size_t buck) { limit=lim; bucket=buck;}
 	  queriesFileIterator& operator++();
-
+	  int Getqid(){return queriesP.qidD[curr];}
 	};
-
+	
+	std::vector<int> qidD;
 	QueryLogManager(const char* fname, termsMap *l); //will add more loaders in future?
 	QueryLogManager(const char* fname, termsMap *l, bool& nothing);
 	void setScoreForQuery(const std::vector<std::string>& terms, float v);

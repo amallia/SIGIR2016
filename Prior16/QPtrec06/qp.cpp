@@ -318,7 +318,7 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 	cout << "################################################################" << endl;
 
 	/* perform query processing for each query */
-	while( qn++ < 1000) {
+	while( qn++ < 10) {
 		++queriesFIterator;
 		if(queriesFIterator == logManager.end()) {
 			COUT << "finished benchmark" << Log::endl;
@@ -326,26 +326,36 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		}
 
 		std::vector<std::string> word_l = (*queriesFIterator);
+		int qid = queriesFIterator.Getqid();
 		while(word_l.size()>=10) {	// no queries more than 10 - in our query log of 1k there is just 1 query of this size
 			++queriesFIterator;
-			CERR << "skip " << word_l << Log::endl;
+			cout << "Query more than 10 terms, skip " << word_l << endl;
 			word_l = (*queriesFIterator);
+			qid = queriesFIterator.Getqid();
 		}
 
-		// ############doc pori
+		// ############doc pori###########
 		RetManager *reter = new RetManager(word_l, lex, Cache, termsInCache);
 		p.start(CONSTS::ALLQS);
 		reter->retrieval(topk, pages);	
 		p.end(CONSTS::ALLQS); 
+
+		cout << qid << endl;
 		for(int i=0; i<word_l.size(); i++){
 			cout << word_l[i] << " ";
 		}
 		cout << endl;
+
+		ofstream out_stream;
+		out_stream.open(CONSTS::Candidates_Pool.c_str(), ofstream::app);
+		out_stream << qid <<":";	
 		for(int i=0; i<topk; i++){
-			cout << reter->retDocID[i] << " ";
+			out_stream << reter->retDocID[i] << " ";
 		}
-		cout << endl;
-		// ############doc pori
+		out_stream << endl;
+		out_stream.close();
+
+		// ############doc pori###########
 
 		// // ########################################################################################
 		// // Initializing (opening) list (lps=list pointer) structures based on standard index
@@ -1195,11 +1205,12 @@ QueryLogManager::QueryLogManager(const char* fname, termsMap *l) :lex(l){
 
 		char *word;
 		word = strtok(line," ");
+		qidD.push_back(atoi(word));//the first one is qid
 
-		if( lex->find(std::string(word))!= lex->end() ) //only if term is in cache...
-			terms.push_back(word);
-		else
-			CERR << word << " is not in lex" << Log::endl;
+		// if( lex->find(std::string(word))!= lex->end() ) //only if term is in cache...
+		// 	terms.push_back(word);
+		// else
+		// 	CERR << word << " is not in lex" << Log::endl;
 
 		while((word = strtok(NULL," ")) != NULL){
 			if( lex->find(std::string(word))!= lex->end() ) //only if term is in cache...

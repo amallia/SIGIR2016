@@ -114,10 +114,12 @@ namespace CONSTS {
 		NONESSENTIAL,STEP1, STEP2, STEP3, NOP };
 
 	//######dodo########
-	const std::string ikQuery("/home/qw376/million9_query_trace/million09_testing_actualqueries_no_qid"); //1k_trec05; //1000query
+	// const std::string ikQuery("/home/qw376/million9_query_trace/million09_testing_actualqueries_no_qid"); //1000query without qid
+	const std::string ikQuery("/home/qw376/million9_query_trace/million09_testing_actualqueries_no_colon_withqid"); //1000 query with qid
 	const std::string trecRoot("/home/qw376/index_ml_09/");
 	const std::string doclenFileName("/home/qw376/Info_Clueweb/documentLengths"); //doc lengths
 	const std::string basic_table("/home/qw376/million9_query_trace/baby_lexicon_m09_all");
+	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/Pori2016_Candidates/test");
 	//######dodo########
 
 	const std::string QLogPath("../QueryLog/");
@@ -183,8 +185,9 @@ namespace CONSTS {
 	const unsigned MAXD(50220423);
 	const int MAXTERMS(86532822);
 	const int MAXDBITS(26);
-	// const int TOPK(10);
-	const int TOPK(500);
+	const int TOPK(10);
+	// const int TOPK(500);
+	// const int TOPK(3000);
 	const float AVGD(860.917);//Clueweb
 	const unsigned int STORAGE_CAPACITY(218); //2187 -- the lowest value to have 0 evictions on our 1K queries sample
 	const int BS(64);
