@@ -119,10 +119,10 @@ namespace CONSTS {
 	const std::string trecRoot("/home/qw376/index_ml_09/");
 	const std::string doclenFileName("/home/qw376/Info_Clueweb/documentLengths"); //doc lengths
 	const std::string basic_table("/home/qw376/million9_query_trace/baby_lexicon_m09_all");
-	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/Prio_Candidates/Priori_TP_10000_new");
+	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/Prio_Candidates/test_TNP_10K");
 	//######dodo########
 	const int TOPK(10000);
-	// const int TOPK(500);
+	// const int TOPK(200);
 
 	const std::string QLogPath("../QueryLog/");
 	const std::string fResultLog("../result_log");

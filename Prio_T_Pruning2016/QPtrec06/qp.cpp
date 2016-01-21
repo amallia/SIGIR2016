@@ -355,14 +355,15 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		}
 		cout << endl;
 
-		// ofstream out_stream;
-		// out_stream.open(CONSTS::Candidates_Pool.c_str(), ofstream::app);
-		// out_stream << qid <<":";	
+		ofstream out_stream;
+		out_stream.open(CONSTS::Candidates_Pool.c_str(), ofstream::app);
+		out_stream << qid <<":";	
 		// for(int i=0; i<topk; i++){
-		// 	out_stream << reter->retDocID[i] << " ";
-		// }
-		// out_stream << endl;
-		// out_stream.close();
+		for(int i=0; i<200; i++){
+			out_stream << reter->retDocID[i] << " ";
+		}
+		out_stream << endl;
+		out_stream.close();
 
 		// ############doc pori###########
 
@@ -398,8 +399,8 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 
 	} // end of Query Processing for the current Query
 	cout << qn-1<<endl;
-	cout << "average dids decompressed for each query: " << total_docs/qn-1 << endl;
-	cout << "average dids evaluated for each query: " << total_eval/qn-1 << endl;
+	cout << "average dids decompressed for each query: " << total_docs/(qn-1) << endl;
+	cout << "average dids evaluated for each query: " << total_eval/(qn-1) << endl;
 }
 
 /* Usage: Given the list length output the block bits used for DocID-Oriented Block-Max Indexes */

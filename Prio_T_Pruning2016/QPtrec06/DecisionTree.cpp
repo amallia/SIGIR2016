@@ -91,7 +91,6 @@ uint RetManager::retrieval(unsigned retNum, unsigned* pages, profilerC& p)
 	int i,l,n;
 	// p.start(CONSTS::STEP2);
 	curDoc = findNextDoc();
-	cout << curDoc << " ";
 	uint Totaldocs_decompressed = 1;
 	while(curDoc < CONSTS::MAXD)
 	{	
@@ -110,27 +109,26 @@ uint RetManager::retrieval(unsigned retNum, unsigned* pages, profilerC& p)
 	DecisionTreeNode **blockList = DT->getBlockList();
 	vector<pair<unsigned,unsigned*> >::iterator it;
 	// p.start(CONSTS::STEP3);
+	cout << "Number of Blocks: " <<DT->getBlockNum()<<endl;
 	for(i=0;i<DT->getBlockNum();i++)
 	{	
-		// cout << "i: "<< i << endl;
+		cout << "i: "<< i << endl;
 		n=blockList[i]->termScores.size();
-		// cout << "n: "<< n << endl;
+		cout << "n: "<< n << endl;
 		int theSize = blockList[i]->content->record.size();
-		// cout<< "theSize: "<<theSize << endl;
+		cout<< "theSize of current lock: "<<theSize << endl;
 		if(theSize+retN>retNum) theSize = retNum-retN;
-		// cout<< "retNum: "<< retNum <<" retN: "<<retN<<" theSize: " <<theSize<<endl;
+		cout<< "TopK: "<< retNum <<" retN: "<<retN<<" theSize needed to reach topK: " <<theSize<<endl;
 		if(theSize==0) continue;
 		topDocs = new MinHeap(theSize);
-		// cout<< "Minheap initialized done"<< endl;
-		// cout<< "start doing look up in block: "<<i<< endl;
+		cout<< "start doing look up in block: "<<i<< endl;
 		for(it=blockList[i]->content->record.begin();it!=blockList[i]->content->record.end();it++)
-		{	
-			// cout << "did: " <<it->first<<" freq: "<<it->second<<endl;														
+		{														
 			unsigned* theTF=it->second;
 			float score=0;
 			float docLength = pages[it->first];//float docLength = theIndex -> getDocLength(it->first);
 			for(l=0;l<n;l++)
-			{
+			{	
 				float tf = theTF[l];
 				float weight = ((okapiK1+1.0)*tf) / (okapiK1 * (1.0-okapiB+okapiB * docLength /CONSTS::AVGD)+tf);//float weight = ((okapiK1+1.0)*tf) / (okapiK1*(1.0-okapiB+okapiB*docLength/theIndex->docLengthAvg)+tf);
 				score+=weight*blockList[i]->termScores[l];
@@ -138,21 +136,22 @@ uint RetManager::retrieval(unsigned retNum, unsigned* pages, profilerC& p)
 			if(score > topDocs->smallest) topDocs->push(it->first,score);
 			evalCounter++;
 		}	
-		// cout<< "doing look up in block: "<<i<<" done"<< endl;
+		cout<< "Doc evaluated by far: "<<evalCounter<<endl;
+		cout<< "doing look up in block: "<<i<<" done"<< endl;
 		// p.end(CONSTS::STEP3);
-		// cout<<"retN: "<<retN<<" theSize: " <<theSize<<endl;
 		for(l=retN+theSize-1;l>=retN;l--)
 		{
 			// cout << l << endl;
 			retDocID[l] = topDocs->pop(retDocScore[l]);
 		}
 		retN+=theSize;
+		cout << "retN: "<<retN<<endl;
 		delete(topDocs);
 	}
 	delete(DT);
-	// cout << "look up done" << endl;
+	cout << "look up done" << endl;
 	// p.end(CONSTS::ALLQS); 
-	// cout << "docs decompressed: "<< Totaldocs_decompressed << endl;
+	cout << "docs decompressed: "<< Totaldocs_decompressed << endl;
 	return Totaldocs_decompressed;
 }
 
@@ -315,11 +314,12 @@ inline void DecisionTree::putDoc(unsigned curDoc,termReter *r)
 	unsigned tf[num];
 	int n=0;
 	while(curNode!=NULL && curNode->content==NULL)
-	{
+	{	
 		if(curDoc==r->curDocID)
 		{
 			curNode = curNode->left;
-			tf[n++] = r->PR->getFreq(); //tf[n++] = r->PR->getTF();		
+			tf[n++] = r->PR->getFreq(); //tf[n++] = r->PR->getTF();	
+			// cout <<"TermID: "<<r->termID<<" did: "<<curDoc<< " freq:" <<r->PR->getFreq()<<endl;	
 		}
 		else
 		{

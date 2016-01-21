@@ -371,7 +371,7 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		// ########################################################################################
 		// (1) Algorithms without Block-Max Indexes
 		// ExhaustiveOR wand(pages);                  // Exhaustive OR
-		// Wand wand(pages);                    		 // WAND
+		Wand wand(pages);                    		 // WAND
 		// Maxscore wand(pages);              	 	 // Maxscore
 
 		// ########################################################################################
@@ -408,8 +408,8 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		//	   Note: We assume the variable block size selection scheme in this code - for expected and fixed see BlockGens.h file and change in line SingleHashBlocker(vecUInt& dids) : bits(bitOracle(dids.size())), docIds(&dids), the bitOracle(did.size() with getLogBlockSize(dids.size() - see function for details
 
 		// (A) Block-Max Generation (BMG) - (a) WITHOUT BMQ and (b) BMQ
- #define DOCIDBLOCKMAX						// needed for any DocID-Oriented Block-Max Algorithm
- #define DOCIDBLOCKMAX_BMQ					// BMQ if defined, else NO BMQ
+ // #define DOCIDBLOCKMAX						// needed for any DocID-Oriented Block-Max Algorithm
+ // #define DOCIDBLOCKMAX_BMQ					// BMQ if defined, else NO BMQ
 #ifdef DOCIDBLOCKMAX
 	for (int i=0; i<lps.size(); i++) {
 		RawIndexList Raw_List = lps_to_RawIndexList(lps[i]); // create Raw_list - needed for both BMG (a) and (b) version
@@ -507,18 +507,19 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 
 		// ########################################################################################
 		// (D) Run algorithms (except OPT algorithms)
-		// QpResult res[topk]; 			// result set - comment line if PriorityArray is used to maintain the results
+		QpResult res[topk]; 			// result set - comment line if PriorityArray is used to maintain the results
 		// COUT << word_l << Log::endl; 	// print query (if verbose set to the right value)
-		// p.start(CONSTS::ALLQS); 		// Start measuring qp time - NOTE: that OTF BMG is already measured if DocID-Oriented Block-Max structures are used (DOCIDBLOCKMAX is defined)
+		cout << qn <<endl;
+		p.start(CONSTS::ALLQS); 		// Start measuring qp time - NOTE: that OTF BMG is already measured if DocID-Oriented Block-Max structures are used (DOCIDBLOCKMAX is defined)
 
 		// // various default parameters for running algorithms
 		// // wand(lps, topk, res);
 		// // wand(lps, topk, 0.0f);
-		// wand(lps, topk, res, 0.0f);
+		wand(lps, topk, res, 0.0f);
 		// //wand(lps, topk, res, 0.0f, 0);
 		// //PriorityArray<QpResult> resultsHeap = wand(lps, topk);
 
-		// p.end(CONSTS::ALLQS); 			// Stop measuring qp time - NOTE: that OTF BMG is already measured if DocID-Oriented Block-Max structures are used (DOCIDBLOCKMAX is defined)
+		p.end(CONSTS::ALLQS); 			// Stop measuring qp time - NOTE: that OTF BMG is already measured if DocID-Oriented Block-Max structures are used (DOCIDBLOCKMAX is defined)
 
 		// // ########################################################################################
 		// // obtain result set after query processing and perform sanity check with ground truth

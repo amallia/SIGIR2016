@@ -403,10 +403,11 @@ namespace CONSTS {
 //	const double percent_of_index = 0.50;	
 	const uint Query_Budget_TopLayer = 1000;
 	const uint Query_Budget_TermPair = 3000;
-	const uint Query_Budget = 5000;
-	// const uint Query_Budget = 1000;
+	// const uint Query_Budget = 5000;
+	// const uint Query_Budget = 5000;
+	const uint Query_Budget = 2000;
 	// const std::string Candidates_Pool("/home/qw376/Candidates_Trec06/Candidates_T6");//Candidates index
-	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/Pori2016_Candidates/SingleNoLB_5k");//Candidates index
+	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/Greedy_Candidates/EXP1_2k");//Candidates index
 	const uint Num_Doc_for_Lookups = 2000;
 	const uint lookup_budget = 20000;
 	const uint num_of_candidate = 2000;
