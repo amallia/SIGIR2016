@@ -485,7 +485,8 @@ void algo_toplayer::load_singlelists_new(toplayers& tls, toplayers& otls){
 		cout<<"term "<<i<<" at length "<<length<<" has partial BM25 score of "<<t_f[length-1]<<endl;
 		/*initialize the lower bound*/
 		if(length < original_length){
-			lowerbound_scores[i] = t_f[length-1];	
+			// lowerbound_scores[i] = t_f[length-1]/2;
+			lowerbound_scores[i] = 0;	
 		}else{
 			lowerbound_scores[i] = 0;
 		}

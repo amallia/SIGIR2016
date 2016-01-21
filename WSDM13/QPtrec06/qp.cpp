@@ -345,7 +345,7 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		}
 
 		std::vector<std::string> word_l = (*queriesFIterator);
-		while(word_l.size()>=10) {	// no queries more than 10 - in our query log of 1k there is just 1 query of this size
+		while(word_l.size()>=1000) {	// no queries more than 10 - in our query log of 1k there is just 1 query of this size
 			++queriesFIterator;
 			CERR << "skip " << word_l << Log::endl;
 			word_l = (*queriesFIterator);
@@ -377,23 +377,23 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		// ########################################################################################
 		// (2) Algorithms using Posting-Oriented Block-Max Indexes
 		// PostingOriented_BMW wand(pages);			 // PostingOriented_BMW - P-BMW
-		PostingOriented_BMM wand(pages);           // Posting-Oriented Block-Max Maxscore - P-BMM
-		// PostingOriented_BMM_NLB wand(pages);       // Posting-Oriented Block-Max Maxscore with Next-Live-Block - P-BMM-NLB
-		QpResult res[topk];							 // PostingsOriented BM-OPT - pick BMW for queries with few terms and BMM for queries with several - Note: fix errors from uncommenting like QpResult, score declaration and measuring counters (already in the following code)
-		float score = 0.0f;
-		if (word_l.size()>5) {
-			PostingOriented_BMM wand(pages);
-			p.start(CONSTS::ALLQS);
-			wand(lps, topk, res, 0.0f);
-			p.end(CONSTS::ALLQS);
-			score = resLogger(qn, word_l, res, topk);
-		} else {
-			PostingOriented_BMW wand(pages);
-			p.start(CONSTS::ALLQS);
-			wand(lps, topk, res);
-			p.end(CONSTS::ALLQS);
-			score = resLogger(qn, word_l, res, topk);
-		}
+		// PostingOriented_BMM wand(pages);           // Posting-Oriented Block-Max Maxscore - P-BMM
+		// // PostingOriented_BMM_NLB wand(pages);       // Posting-Oriented Block-Max Maxscore with Next-Live-Block - P-BMM-NLB
+		// QpResult res[topk];							 // PostingsOriented BM-OPT - pick BMW for queries with few terms and BMM for queries with several - Note: fix errors from uncommenting like QpResult, score declaration and measuring counters (already in the following code)
+		// float score = 0.0f;
+		// if (word_l.size()>5) {
+		// 	PostingOriented_BMM wand(pages);
+		// 	p.start(CONSTS::ALLQS);
+		// 	wand(lps, topk, res, 0.0f);
+		// 	p.end(CONSTS::ALLQS);
+		// 	score = resLogger(qn, word_l, res, topk);
+		// } else {
+		// 	PostingOriented_BMW wand(pages);
+		// 	p.start(CONSTS::ALLQS);
+		// 	wand(lps, topk, res);
+		// 	p.end(CONSTS::ALLQS);
+		// 	score = resLogger(qn, word_l, res, topk);
+		// }
 
 
 		// ########################################################################################
@@ -408,8 +408,8 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 		//	   Note: We assume the variable block size selection scheme in this code - for expected and fixed see BlockGens.h file and change in line SingleHashBlocker(vecUInt& dids) : bits(bitOracle(dids.size())), docIds(&dids), the bitOracle(did.size() with getLogBlockSize(dids.size() - see function for details
 
 		// (A) Block-Max Generation (BMG) - (a) WITHOUT BMQ and (b) BMQ
-// #define DOCIDBLOCKMAX						// needed for any DocID-Oriented Block-Max Algorithm
-// #define DOCIDBLOCKMAX_BMQ					// BMQ if defined, else NO BMQ
+ #define DOCIDBLOCKMAX						// needed for any DocID-Oriented Block-Max Algorithm
+ #define DOCIDBLOCKMAX_BMQ					// BMQ if defined, else NO BMQ
 #ifdef DOCIDBLOCKMAX
 	for (int i=0; i<lps.size(); i++) {
 		RawIndexList Raw_List = lps_to_RawIndexList(lps[i]); // create Raw_list - needed for both BMG (a) and (b) version
@@ -459,7 +459,7 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 #ifdef DOCIDBLOCKMAX
 	#ifndef DOCIDBLOCKMAX_BMQ						 // (a) make sure we do not use Block-Max Score Quantization (WITHOUT BMQ)
 		// DocidOriented_BMW wand(pages);             // DocID-Oriented Block-Max BMW - DocidOriented-BMW
-		DocidOriented_BMM wand(pages);             // DocID-Oriented Block-Max Maxscore - DocidOriented_BMM and DocidOriented_BMM-NLB: see file for setting which version to run
+		//DocidOriented_BMM wand(pages);             // DocID-Oriented Block-Max Maxscore - DocidOriented_BMM and DocidOriented_BMM-NLB: see file for setting which version to run
 		float score = 0.0f;							 // DocID-Oriented Block-Max OPT - pick DocidOriented-BMW or DocidOriented-BMM-NLB based on the query terms // be sure you run BMM-NLB
 		if (word_l.size()==2) {
 			DocidOriented_BMW wand(pages);
@@ -479,8 +479,9 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 
 	#else											// (b) Block-Max Score Quantization is enabled (WITH BMQ)
 		// DocidOriented_BMW_BMQ wand(pages);         //  DocID-Oriented Block-Max BMW with BMQ - DocidOriented-BMW BMQ
-		DocidOriented_BMM_BMQ wand(pages);    	  // DocID-Oriented Block-Max Maxscore with BMQ - DocidOriented_BMM_BMQ and DocidOriented_BMM-NLB_BMQ: see file for setting which version to run
+		//DocidOriented_BMM_BMQ wand(pages);    	  // DocID-Oriented Block-Max Maxscore with BMQ - DocidOriented_BMM_BMQ and DocidOriented_BMM-NLB_BMQ: see file for setting which version to run
 		float score = 0.0f;							  // DocID-Oriented BM-OPT BMQ - pick BMW for queries with few terms and BMM for queries with several - Note: fix errors from uncommenting like score declaration and measuring counters (already in the following code)
+		cout << qn << endl;
 		if (word_l.size()==2) {
 			DocidOriented_BMW_BMQ wand(pages);
 			p.start(CONSTS::ALLQS);
@@ -528,13 +529,13 @@ void QueryProcessing::operator()(const char* queryLog, const int buckets, const 
 
 		// Sanity check, if top-kth score matches with the pre-computed ground truth (golden threshold)
 		// Note: sanity check only for the top-10 in our case - there is code for creating your own top-k ground truth
-		if (!FloatEquality(score, queriesFIterator.score())) {
-			CERR << "wrong score: " <<   queriesFIterator.score() << "!=" << score << Log::endl;
+		// if (!FloatEquality(score, queriesFIterator.score())) {
+		// 	CERR << "wrong score: " <<   queriesFIterator.score() << "!=" << score << Log::endl;
 
-			for(size_t i=0; i<word_l.size(); ++i)
-				CERR << word_l[i] << ",";
-			CERR << Log::endl;
-		} // end of sanity check
+		// 	for(size_t i=0; i<word_l.size(); ++i)
+		// 		CERR << word_l[i] << ",";
+		// 	CERR << Log::endl;
+		// } // end of sanity check
 
 		// ########################################################################################
 		// Clear memory from loaded structures if needed

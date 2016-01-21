@@ -24,7 +24,7 @@ struct termReter
         unsigned termID;
         float QF;
         float grade;
-	float threshold;
+		float threshold;
         unsigned blockNum;
         unsigned curBlock;
         unsigned* blockDocID;
@@ -239,7 +239,7 @@ RetManager::RetManager(IndexReader *IR,query *q)
                 }
                 else
                 {
-                        r[i].PR = NULL;
+                        r[ti].PR = NULL;
                         r[i].BI = NULL;
                         r[i].curDocID = MaxNum;
                         r[i].grade = 0;

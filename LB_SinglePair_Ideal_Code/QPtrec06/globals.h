@@ -406,7 +406,7 @@ namespace CONSTS {
 	// const uint Query_Budget = 5000;
 	const uint Query_Budget = 5000;
 	// const std::string Candidates_Pool("/home/qw376/Candidates_Trec06/Candidates_T6");//Candidates index
-	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/Pori2016_Candidates/SingleLB_5K");//Candidates index
+	const std::string Candidates_Pool("/home/qw376/Data_for_SIGIR2016/LB_Candidates/SP0LB_5K");//Candidates index
 	const uint Num_Doc_for_Lookups = 2000;
 	const uint lookup_budget = 20000;
 	const uint num_of_candidate = 2000;

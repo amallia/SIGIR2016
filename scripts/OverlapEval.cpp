@@ -47,10 +47,14 @@ int main() {
 //  cutoffLevels.push_back(50);
 //  cutoffLevels.push_back(100);
   cutoffLevels.push_back(200);
+  cutoffLevels.push_back(300);
   cutoffLevels.push_back(500);
   cutoffLevels.push_back(600);
-  cutoffLevels.push_back(1000);  
-//  cutoffLevels.push_back(2000);
+  cutoffLevels.push_back(1000); 
+  cutoffLevels.push_back(1200); 
+  cutoffLevels.push_back(1500); 
+  cutoffLevels.push_back(1800); 
+  cutoffLevels.push_back(2000);
 
   // string candidatesFile = "/home/qw376/Candidates_Trec06/Candidates_T6";
   // string candidatesFile = "/home/qw376/Candidates_M9/NoSpaceConstraint_9000";
@@ -58,8 +62,8 @@ int main() {
   // string candidatesFile = "/home/qw376/Candidates_M9/Lv16_Class5kall_1000_realcase_rewrite_rightrange"; //Lv16_Class5kall_1000_realcase_rewrite_3m_2012
   // string candidatesFile = "/home/qw376/Candidates_M9/M9_Size6_2k_0.5k";
   // string candidatesFile = "/home/qw376/WSDM16/Candidates_M9/Exp5_2k_500_S6";
-  // string candidatesFile = "/home/qw376/Data_for_SIGIR2016/Pori2016_Candidates/SingleNoLB_5k";
-  string candidatesFile = "/home/qw376/Data_for_SIGIR2016/Pori2016_Candidates/SingleLB_5K";
+  string candidatesFile = "/home/qw376/Data_for_SIGIR2016/Prio_Candidates/Priori_TP_10000_new";
+  // string candidatesFile = "/home/qw376/Data_for_SIGIR2016/Prio_Candidates/Prio2K";
   ReportQualityMetrics(CONST::groundTruth,
                        candidatesFile,
                        cutoffLevels);

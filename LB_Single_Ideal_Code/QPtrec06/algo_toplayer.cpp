@@ -416,16 +416,7 @@ void algo_toplayer::load_singlelists_new(toplayers& tls, toplayers& otls){
  		const int original_length = otls.cutoffs[i]; //the original list length
  		cout <<"The three lengths: "<< length << " " << firstlayer_length << " "<<original_length<<endl;
  		if(length == 0){
- 			string score_dir = CONSTS::top_layer_index_score.c_str() + tls.terms[i];
-			FILE * loadscores = fopen(score_dir.c_str(), "r");
-			if(loadscores==NULL){
-				cout<<"can't find file for score"<<endl;
-			}
-			vector<float> t_f (1, 0);
-			// fread(&t_f[0], sizeof(float), length, loadscores);//the length here is shorter than what I stored, since length is computed according to online greedy
-			fread(&t_f[0], sizeof(float), 1, loadscores);
-			fclose(loadscores);
-			lowerbound_scores[i] = t_f[0];
+			lowerbound_scores[i] = 0;
 			continue;	
  		}
 		/*load the did*/
@@ -485,7 +476,7 @@ void algo_toplayer::load_singlelists_new(toplayers& tls, toplayers& otls){
 		cout<<"term "<<i<<" at length "<<length<<" has partial BM25 score of "<<t_f[length-1]<<endl;
 		/*initialize the lower bound*/
 		if(length < original_length){
-			lowerbound_scores[i] = t_f[length-1];	
+			lowerbound_scores[i] = 3*t_f[length-1]/4;	
 		}else{
 			lowerbound_scores[i] = 0;
 		}
